@@ -1,6 +1,5 @@
 # Keep it Simple: Tenet 1 of Continuous Agile Software Engineering
 
-
 ````sidebyside
 ## Introduction
 
@@ -27,7 +26,7 @@ But at the same time do not be afraid to come up with your own design pattern if
 ## Core Principle 2: Eliminate Waste
 
 ```paper
-Eliminating waste in the development process involves removing unnecessary tasks, unused code, excessive or deprecated documentation, and other activities that do not contribute to delivering value. 
+Eliminating waste in the development process involves removing unnecessary tasks, unused code, excessive or deprecated documentation, and other activities that do not contribute to delivering value.
 
 One strategy you can use for eliminating waste is to prioritize tasks using the MoSCoW method, which is a technique for prioritizing tasks based on their importance. By categorizing tasks as Must-haves, Should-haves, Could-haves, and Won't-haves, teams can focus on delivering the most important features first, while postponing or eliminating less important tasks. You could also extend this method to cover how you organize features, grouping or tagging them into Must-Haves, Should-haves, Could-haves, and Won’t-haves.
 
