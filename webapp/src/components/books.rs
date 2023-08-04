@@ -16,7 +16,7 @@ pub(crate) fn render_case_books(_contexts: Contexts) -> Html {
 pub(crate) fn case_books(props: &CaseBooksProps) -> Html {
     html! {
         <>
-            {title_success!(r#"Get your copy of our book "CASE: Continous Agile Software Engineering" for more information about Continuous Agile Software Engineering and how to integrate it into your teams and workflows."#)}
+            {title_success!(r#"Get your copy of my book "CASE: Continous Agile Software Engineering" for more information about Continuous Agile Software Engineering and how to integrate it into your teams and workflows."#)}
             <Paper class="d-flex flex-row ma-2 gap-2">
                 <Paper elevation={ELEVATION_STANDARD} class="pb-2">
                     <Paper class="theme-secondary text-center pa-3 mb-2">{"Kindle"}</Paper>
