@@ -30,6 +30,8 @@ I want to help others improve their software development standards and practices
 There is an underlying philosophy behind most, if not all my standards and best practices. That is to "keep things simple".
 ```
 
+!<CaseBooks>
+
 ```sideimage "left" "https://cdn.myfi.ws/v/Vecteezy/creative-concept-idea-key-to-success-light-bulb-energy-and.svg"
 This site will introduce you to the methodologies, principles, and practices I have developed over my career.
 
@@ -299,3 +301,5 @@ Monitor and measure the performance of the software after every deployment to as
 ````
 
 `````
+
+!<CaseBooks>
