@@ -1,5 +1,7 @@
 # Software Standards
 
+[WebUI Version: 0.6.45](https://github.com/StoicDreams/RustWebUI)
+
 Website: [www.SoftwareStandards.dev](https://www.softwarestandards.dev)
 
 Website for documenting software development standards across various roles including but not limited to, Software Engineers, Project Managers, Managers.
