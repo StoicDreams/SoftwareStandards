@@ -1,12 +1,15 @@
 # Continuous Agile Software Engineering
 
-````paper "d-flex flex-column align-center justify-center pa-3"
-```paper "readable-content"
-```quote "info" "Erik Gassler"
+````sideimage "left" "https://cdn.myfi.ws/img/case/CASE_Hardcover_Circle.webp"
+
+```quote "tertiary" "Erik Gassler"
 A common axiom I hear frequently in this industry is "there's no reason to re-invent the wheel". Stop and think about that logic for a second. The first wheel is believed to have been invented around 3500 B.C. Imagine what the world would be like today if every person since then just thought "there's no reason to re-invent the wheel". The wheel has continuously been re-invented and iterated on after its initial invention, and our lifestyles are a much better place for it.
 
 When you face a feature that needs to be implemented, sometimes it is simpler and easier to use an existing solution that already does exactly what you need. Most of the time though I find it much more beneficial, especially in the long term, to either build a new solution from scratch or iterate on an existing open-source solution. Do your research, analyze the problem, and ask questions to figure out which is better for the problem at hand.
 ```
+
+```quote "success"
+Have questions about CASE? Check out the [CASE GPT AI assistant](https://chat.openai.com/g/g-V2lj0ZVcU-case-gpt).
 ```
 ````
 
@@ -30,7 +33,7 @@ I want to help others improve their software development standards and practices
 There is an underlying philosophy behind most, if not all my standards and best practices. That is to "keep things simple".
 ```
 
-!<CaseBooks>
+<CaseBooks>
 
 ```sideimage "left" "https://cdn.myfi.ws/v/Vecteezy/creative-concept-idea-key-to-success-light-bulb-energy-and.svg"
 This site will introduce you to the methodologies, principles, and practices I have developed over my career.
@@ -302,4 +305,4 @@ Monitor and measure the performance of the software after every deployment to as
 
 `````
 
-!<CaseBooks>
+<CaseBooks>

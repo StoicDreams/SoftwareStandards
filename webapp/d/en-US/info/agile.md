@@ -47,7 +47,7 @@ Prototypes should include using test-driven development practices so each protot
 ```quote "info"
 Note: Each prototype at this point might also include its own Agile Workflow Loop.
 ```
-```
+
 ```card "Evaluate" "580"
 You've created your prototypes, now it's time to evaluate the pros and cons of each.
 

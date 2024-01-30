@@ -28,23 +28,22 @@ Team standards should be standards that objectively improve development, or the 
 If the reasons why for any standard are only subjective in nature, then exclude it from your team standards.
 ```
 
-````cards
-```card "Examples of Good Team Standards" "580" "success"
-```list
-Only use minimized Javascript files in production because our testing has shown it improves load times by 30-80%.
-Use SQL procedures instead of raw queries because our testing has shown it improves performance by at least 10-30%.
-Place website files in a folder called wwwroot because that's what this framework we use requires.
-```
-```
-```card "Examples of Bad Team Standards" "580" "danger"
-```list
-Use 2 spaces for indentation, because it's easier to read.
-Use Pascal Casing for all global variables, because that's the industry standard.
-Break any lines of code that exceed 80 characters so developers with smaller screens don't have code running off the screen.
-Put all components of your project in a root folder named `src` because that's how we do it for all of our projects.
-```
-```
+`````cards
+````card "Examples of Good Team Standards" "580" "success"
+
+- Only use minimized Javascript files in production because our testing has shown it improves load times by 30-80%.
+- Use SQL procedures instead of raw queries because our testing has shown it improves performance by at least 10-30%.
+- Place website files in a folder called wwwroot because that's what this framework we use requires.
+
 ````
+````card "Examples of Bad Team Standards" "580" "danger"
+
+- Use 2 spaces for indentation, because it's easier to read.
+- Use Pascal Casing for all global variables, because that's the industry standard.
+- Break any lines of code that exceed 80 characters so developers with smaller screens don't have code running off the screen.
+- Put all components of your project in a root folder named `src` because that's how we do it for all of our projects.
+````
+`````
 
 ## Personal Developer Standards
 
@@ -67,18 +66,18 @@ I don't minimize my JavaScript files for production because I find it hard to de
 
 ## Ownership of Standards
 
-````cards
-```card "What is ownership?" "580" "info"
+`````cards
+````card "What is ownership?" "580" "info"
 An **owner** of a codebase or project within this context of standards is a developer that will be in charge of dictating the standards for that codebase/project.
 
 Typically this is more for standards that come from personal preferences, not standards that would be in place for performance or functional reasons. Though the owner should have authority and trust to deviate from performance|functional standards when they deem it necessary, but they should document in the code where and why they are deviated from these standards so future developers can easily understand why.
-```
-```card "Single Developer per Project | Codebase" "580" "info"
+````
+````card "Single Developer per Project | Codebase" "580" "info"
 When you have organized your teams so that you end up with projects that only have a single developer working in them, then that developer should be considered the owner of that codebase.
 
 When another developer takes over a codebase/project, they should have the freedom to refactor the code as the deem appropriate to conform to their personal standards so they can more easily manage and update the project.
-```
-```card "Multi-Developer Codebases | Projects" "580" "info"
+````
+````card "Multi-Developer Codebases | Projects" "580" "info"
 When you have multiple developers working in the same codebase at the same time, then allow each developer ownership over whatever files they are needing to change for the work they are doing.
 
 Developers should be given the freedom to change a file they are working in so it is easier to read and work in for them.
@@ -86,8 +85,8 @@ Developers should be given the freedom to change a file they are working in so i
 Most modern IDE's developers are using will allow them to quickly reformat a file to match the standards they've defined in their IDE, taking just a few seconds after opening the file.
 
 This maximizes the readability for that developer so they can maximize their efficiency in doing their job.
-```
-```card "Org | Manager | Team Ownership" "580" "info"
+````
+````card "Org | Manager | Team Ownership" "580" "info"
 In many cases these arbitrary, preference-based coding standards are dictated by a higher authority than the developer doing the work. These may come down from the organization/company level, or they may be dictated by some level of management above the team.
 
 In some cases these coding standards are allowed to be decided by the team as a group, generally doing some form of voting to dictate the standards, that then must be applied to all projects worked on by that team.
@@ -104,5 +103,5 @@ Code consistency is not a requirement for making code that is easy to read and u
 ```quote "warning"
 Code consistency standards really only serve as a form of micromanagement from wannabe-dictators to give them a sense of control and power over people. But it has the adverse affect of degrading developer moral and motivation, degrading product quality, and stifling creativity and innovation.
 ```
-```
 ````
+`````
