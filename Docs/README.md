@@ -1,6 +1,6 @@
 # Software Standards
 
-[WebUI Version: 0.7.16](https://github.com/StoicDreams/RustWebUI)
+[WebUI Version: 0.7.19](https://github.com/StoicDreams/RustWebUI)
 
 Website: [www.SoftwareStandards.dev](https://www.softwarestandards.dev)
 
