@@ -1,7 +1,7 @@
 use crate::prelude::*;
 
 /// Page for tenet 9: Continuous Testing
-pub(crate) fn page_tenet_continuous_testing(_contexts: Contexts) -> Html {
+pub(crate) fn page_tenet_continuous_testing(_contexts: &Contexts) -> Html {
     set_title("Continuous Testing: Tenet 9 of Continuous Agile Software Engineering");
     html! {
         <>

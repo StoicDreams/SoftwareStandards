@@ -1,7 +1,7 @@
 use crate::prelude::*;
 
 /// Page for tenet 10: Continuous Iterations
-pub(crate) fn page_tenet_continuous_iterations(_contexts: Contexts) -> Html {
+pub(crate) fn page_tenet_continuous_iterations(_contexts: &Contexts) -> Html {
     set_title("Continuous Iterations: Tenet 10 of Continuous Agile Software Engineering");
     html! {
         <>

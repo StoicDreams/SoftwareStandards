@@ -1,7 +1,7 @@
 use crate::prelude::*;
 
 /// App home page
-pub(crate) fn page_statement_of_work(_contexts: Contexts) -> Html {
+pub(crate) fn page_statement_of_work(_contexts: &Contexts) -> Html {
     set_title("Statements of Work - Identify the Problem");
     html! {
         <>

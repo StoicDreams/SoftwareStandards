@@ -1,7 +1,7 @@
 use crate::prelude::*;
 
 /// App home page
-pub(crate) fn page_agile(_contexts: Contexts) -> Html {
+pub(crate) fn page_agile(_contexts: &Contexts) -> Html {
     set_title("Agile Software Software Development");
     html! {
         <>

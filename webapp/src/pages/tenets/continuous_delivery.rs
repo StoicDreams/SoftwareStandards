@@ -1,7 +1,7 @@
 use crate::prelude::*;
 
 /// Page for tenet 12: Continuous Delivery
-pub(crate) fn page_tenet_continuous_delivery(_contexts: Contexts) -> Html {
+pub(crate) fn page_tenet_continuous_delivery(_contexts: &Contexts) -> Html {
     set_title("Continuous Delivery: Tenet 12 of Continuous Agile Software Engineering");
     html! {
         <>
