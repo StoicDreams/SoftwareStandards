@@ -1,17 +1,23 @@
-# Continuous Feedback Loops: Tenet 4 of Continuous Agile Software Engineering
+<webui-data data-page-title="Continuous Feedback Loops: Tenet 4 of Continuous Agile Software Engineering" data-page-subtitle=""></webui-data>
 
-````sidebyside
+<webui-side-by-side>
+
 ## Introduction
 
-```paper
-Continuous Feedback Loops is about creating an environment where feedback is continuously gathered, shared, and acted upon. This enables software development teams to stay focused on delivering value to customers, identify and address issues early, and adapt to changing requirements more efficiently.
-```
-````
+<webui-paper>
 
-````sidebyside
+Continuous Feedback Loops is about creating an environment where feedback is continuously gathered, shared, and acted upon. This enables software development teams to stay focused on delivering value to customers, identify and address issues early, and adapt to changing requirements more efficiently.
+
+</webui-paper>
+
+</webui-side-by-side>
+
+<webui-side-by-side>
+
 ## Core Principle 1: Gather Feedback
 
-```paper
+<webui-paper>
+
 To establish continuous feedback loops, teams must actively gather feedback from various sources throughout the development process. This can be done in several ways:
 
 ### Use analytics tools
@@ -29,13 +35,17 @@ Involve stakeholders, such as product owners, business analysts, and other non-t
 ### Foster a culture of open communication within the team
 
 Encourage team members to share their feedback, ideas, and concerns openly and honestly. Hold regular feedback meetings, retrospectives, or other meetings to facilitate these discussions and ensure that feedback is heard and acted upon.
-```
-````
 
-````sidebyside
+</webui-paper>
+
+</webui-side-by-side>
+
+<webui-side-by-side>
+
 ## Core Principle 2: Use Feedback to Inform Decisions
 
-```paper
+<webui-paper>
+
 Once feedback is gathered, it must be used to inform decision-making throughout the development process. Teams should:
 
 ### Prioritize user feedback
@@ -53,13 +63,17 @@ Share gathered feedback with the entire team, ensuring that everyone is aware of
 ### Use feedback to iterate on product design
 
 Use feedback from users and stakeholders to adjust product design, feature set, and overall user experience. This ensures that the product continues to evolve and adapt based on real-world needs and expectations.
-```
-````
 
-````sidebyside
+</webui-paper>
+
+</webui-side-by-side>
+
+<webui-side-by-side>
+
 ## Core Principle 3: Iterate Based on Feedback
 
-```paper
+<webui-paper>
+
 Continuous feedback loops are most effective when teams actively iterate on their products and processes based on the feedback they receive. To do this, teams should:
 
 ### Implement an iterative development process
@@ -73,15 +87,23 @@ Foster a team culture that values continuous improvement and is open to making c
 ### Address issues and improvements promptly
 
 When feedback identifies an issue or area of improvement, take swift action to address it. This could involve fixing bugs, refining features, or adjusting processes to better meet the needs of users and stakeholders.
-```
-````
 
-````sidebyside
+</webui-paper>
+
+</webui-side-by-side>
+
+<webui-side-by-side>
+
 ## Conclusion
 
-```paper
+<webui-paper>
+
 By implementing continuous feedback loops, software development teams can stay focused on delivering value to customers, identify and address issues early, and adapt more efficiently to changing requirements.
 
 Integrating the principles of gathering feedback, using feedback to inform decisions, and iterating based on feedback into the development process can lead to higher quality software, increased customer satisfaction, and a shorter time to market.
-```
-````
+
+</webui-paper>
+
+</webui-side-by-side>
+
+<webui-next-page name="Continuous Automation" href="/tenets/continuous-automation"></webui-next-page>

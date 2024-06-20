@@ -1,0 +1,12 @@
+[
+    {
+        "name": "Examples of Good Team Standards",
+        "theme": "success",
+        "body": "- Only use minimized Javascript files in production because our testing has shown it improves load times by 30-80%.\n\n- Use SQL procedures instead of raw queries because our testing has shown it improves performance by at least 10-30%.\n\n- Place website files in a folder called wwwroot because that's what this framework we use requires."
+    },
+    {
+        "name": "Examples of Bad Team Standards",
+        "theme": "danger",
+        "body": "- Use 2 spaces for indentation, because it's easier to read.\n\n- Use Pascal Casing for all global variables, because that's the industry standard.\n\n- Break any lines of code that exceed 80 characters so developers with smaller screens don't have code running off the screen.\n\n- Put all components of your project in a root folder named `src` because that's how we do it for all of our projects."
+    }
+]

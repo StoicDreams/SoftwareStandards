@@ -1,0 +1,12 @@
+[
+    {
+        "name": "Examples of Good Developer Standards",
+        "theme": "success",
+        "body": "I use 3 spaces for indentation, because I find it easier to read.\n\nI use Pascal Casing for all variables defined outside of a method because I find that easy to read and I can develop faster not having to remember complex naming conventions."
+    },
+    {
+        "name": "Examples of Bad Developer Standards",
+        "theme": "danger",
+        "body": "I write SQL scripts as queries instead of procedures because that's easier and faster to develop.\n\nI don't minimize my JavaScript files for production because I find it hard to debug production issues when I do that."
+    }
+]

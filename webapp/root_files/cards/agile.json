@@ -1,0 +1,30 @@
+[
+    {
+        "name": "Research",
+        "body": "The first stage for any development loop needs to be research. Sometimes you don't need much, other times you need a lot. This can be anything from researching the code you're planning to update, to as much as researching new technologies or APIs that you might want to integrate into your project to support the feature.\n\nThis could also involve asking peers if they have any suggestions or ideas on how to implement a feature, or relevant technologies that might be available."
+    },
+    {
+        "name": "Prototype",
+        "body": "From your research, you likely came up with multiple solutions. Before implementing, prototype each solution or idea so you can evaluate the pros and cons of each.\n\nPrototypes should include using test-driven development practices so each prototype can showcase proofs that it works as expected, as well as make it easier to pinpoint performance bottlenecks for the evaluation stage.\n\n<webui-quote theme=\"info\">\n\nNote: Each prototype at this point might also include its own Agile Workflow Loop.\n\n</webui-quote>"
+    },
+    {
+        "name": "Evaluate",
+        "body": "You've created your prototypes, now it's time to evaluate the pros and cons of each.\n\nIt is likely important to consider final performance, but you may also want to consider other factors such as code complexity, use of third-party dependencies, and ease of maintenance.\n\nEven though we generally prefer whatever is best performing, there have been a lot of times when we have chosen a solution simply because it was a much simpler and easier to maintain solution, rather than a solution that was slightly faster but much more complex."
+    },
+    {
+        "name": "Integrate",
+        "body": "Once you analyzed the results from your prototype evaluation and chosen a final solution, this step is where you'll integrate that solution into your code."
+    },
+    {
+        "name": "Test",
+        "body": "When you have completed integration and feel it is ready for deployment, run the full suite of tests for your project to assure everything is working as expected.\n\nAny tests that need to be run manually, take the time to try to setup a way to automate them. Ideally you should just have a button somewhere that you can press and have all local tests run automatically from there, and end with some kind of report that details all the tests run and highlights any failures."
+    },
+    {
+        "name": "Deploy",
+        "body": "When your work is completed and all testing is good, this is the step where you commit and push your work to the Master | Main branch.\n\nThis should kick off build and release pipelines, each with their own steps to process any respective tests.\n\nIf any build or release pipelines need any updates to account for new tests or configurations, make sure you update them accordingly."
+    },
+    {
+        "name": "Validate",
+        "body": "Once deployed, take some time to validate everything tested and deployed correctly. Run some extra sanity checks, watch logs and insights to make sure nothing spikes.\n\nBe ready to roll back your changes if necessary."
+    }
+]

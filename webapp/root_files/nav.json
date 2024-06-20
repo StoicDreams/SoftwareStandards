@@ -1,0 +1,141 @@
+[
+    {
+        "name": "Home",
+        "icon": "house",
+        "iconFamily": "duotone",
+        "url": "/continuous-agile-software-engineering"
+    },
+    {
+        "name": "CASE Tenets",
+        "icon": "books",
+        "iconFamily": "duotone",
+        "children": [
+            {
+                "name": "Keep it Simple",
+                "icon": "circle",
+                "iconFamily": "duotone",
+                "url": "/tenets/keep-it-simple"
+            },
+            {
+                "name": "Code Ownership",
+                "icon": "circle",
+                "iconFamily": "duotone",
+                "url": "/tenets/code-ownership"
+            },
+            {
+                "name": "Continuous Agility",
+                "icon": "circle",
+                "iconFamily": "duotone",
+                "url": "/tenets/continuous-agility"
+            },
+            {
+                "name": "Continuous Feedback Loops",
+                "icon": "circle",
+                "iconFamily": "duotone",
+                "url": "/tenets/continuous-feedback-loops"
+            },
+            {
+                "name": "Continuous Automation",
+                "icon": "circle",
+                "iconFamily": "duotone",
+                "url": "/tenets/continuous-automation"
+            },
+            {
+                "name": "Continuous Planning",
+                "icon": "circle",
+                "iconFamily": "duotone",
+                "url": "/tenets/continuous-planning"
+            },
+            {
+                "name": "Continuous Collaboration",
+                "icon": "circle",
+                "iconFamily": "duotone",
+                "url": "/tenets/continuous-collaboration"
+            },
+            {
+                "name": "Continuous Learning",
+                "icon": "circle",
+                "iconFamily": "duotone",
+                "url": "/tenets/continuous-learning"
+            },
+            {
+                "name": "Continuous Testing",
+                "icon": "circle",
+                "iconFamily": "duotone",
+                "url": "/tenets/continuous-testing"
+            },
+            {
+                "name": "Continuous Iterations",
+                "icon": "circle",
+                "iconFamily": "duotone",
+                "url": "/tenets/continuous-iterations"
+            },
+            {
+                "name": "Continuous Integrations",
+                "icon": "circle",
+                "iconFamily": "duotone",
+                "url": "/tenets/continuous-integrations"
+            },
+            {
+                "name": "Continuous Delivery",
+                "icon": "circle",
+                "iconFamily": "duotone",
+                "url": "/tenets/continuous-delivery"
+            }
+        ]
+    },
+    {
+        "name": "Holistic",
+        "icon": "infinity",
+        "iconFamily": "duotone",
+        "url": "/info/holistic"
+    },
+    {
+        "name": "Agile",
+        "icon": "arrows-split-up-and-left",
+        "iconFamily": "duotone",
+        "url": "/info/agile"
+    },
+    {
+        "name": "SOW",
+        "icon": "scroll",
+        "iconFamily": "duotone",
+        "url": "/info/statement-of-work"
+    },
+    {
+        "name": "Standards",
+        "icon": "train-track",
+        "iconFamily": "duotone",
+        "url": "/info/standards"
+    },
+    {
+        "name": "Tests",
+        "icon": "flask-vial",
+        "iconFamily": "duotone",
+        "url": "/info/tests"
+    },
+    {
+        "name": "Interviews",
+        "icon": "clipboard-list-check",
+        "iconFamily": "duotone",
+        "url": "/info/interviews"
+    },
+    {
+        "name": "About",
+        "icon": "circle-exclamation",
+        "iconFamily": "duotone",
+        "url": "/about"
+    },
+    {
+        "name": "Privacy",
+        "icon": "shield-exclamation",
+        "iconFamily": "duotone",
+        "url": "/privacy"
+    },
+    {
+        "name": "Terms",
+        "icon": "handshake",
+        "iconFamily": "duotone",
+        "url": "/terms"
+    }
+]

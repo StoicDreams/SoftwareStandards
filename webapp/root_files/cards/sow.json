@@ -1,0 +1,26 @@
+[
+    {
+        "name": "Who?",
+        "body": "- Who is this product for?\n\n- Who will benefit from this product?\n\n- Who will this product be marketed to?"
+    },
+    {
+        "name": "What?",
+        "body": "- What is the purpose of this product? What should this product achieve?\n\n- What problem does this product solve?\n\n- What are the goals and objectives for this product?\n\n- What is the target deployment environment?\n\n- What hardware system(s) (Windows, Web, Mobile, etc) is this product targeted for?\n\n- What other products are this product expected to work with?"
+    },
+    {
+        "name": "Where?",
+        "body": "- Where will people find this product?\n\n- Where will visitors come from?\n\n- Where will they go when they leave?"
+    },
+    {
+        "name": "When?",
+        "body": "- When will a user/visitor become a customer?\n\n- When will a user achieve value?\n\n- When will a user want to use this product?"
+    },
+    {
+        "name": "Why?",
+        "body": "- Why will people use our product? Why will they come back to use it again and again?\n\n- Why will this product be beneficial to someone?\n\n- Why would a user use our product versus a competitor?"
+    },
+    {
+        "name": "How?",
+        "body": "- How would you briefly describe this product?\n\n- How does this product solve problems?\n\n- How will a user interact with the product?\n\n- How will a user benefit from this product?\n\n- How would this product work with other products?\n\n- How will this product be marketed?\n\n- How much value is an average user expected to have?"
+    }
+]
