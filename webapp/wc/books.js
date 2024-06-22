@@ -29,7 +29,7 @@
             }
         }
         connectedCallback() {
-            this.innerHTML = webuiApplyAppData(`
+            this.innerHTML = webui.applyAppDataToContent(`
 <webui-side-by-side>
 
 <webui-flex column justify="center">
