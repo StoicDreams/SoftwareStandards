@@ -1,4 +1,5 @@
 <webui-data data-page-title="Continuous Feedback Loops: Tenet 4 of Continuous Agile Software Engineering" data-page-subtitle=""></webui-data>
+<webui-data data-page-next-page='{"name":"Continuous Automation","href":"/tenets/continuous-automation"}'></webui-data>
 
 <webui-side-by-side>
 
@@ -105,5 +106,3 @@ Integrating the principles of gathering feedback, using feedback to inform decis
 </webui-paper>
 
 </webui-side-by-side>
-
-<webui-next-page name="Continuous Automation" href="/tenets/continuous-automation"></webui-next-page>

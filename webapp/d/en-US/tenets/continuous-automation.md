@@ -1,4 +1,5 @@
 <webui-data data-page-title="Continuous Automation: Tenet 5 of Continuous Agile Software Engineering" data-page-subtitle=""></webui-data>
+<webui-data data-page-next-page='{"name":"Continuous Planning","href":"/tenets/continuous-planning"}'></webui-data>
 
 <webui-side-by-side>
 
@@ -99,5 +100,3 @@ Continuous automation is essential to achieving the larger goal of Continuous Ag
 </webui-paper>
 
 </webui-side-by-side>
-
-<webui-next-page name="Continuous Planning" href="/tenets/continuous-planning"></webui-next-page>

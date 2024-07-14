@@ -1,4 +1,5 @@
 <webui-data data-page-title="Statements of Work - Identify the Problem" data-page-subtitle=""></webui-data>
+<webui-data data-page-next-page='{"name":"Standards","href":"/info/standards"}'></webui-data>
 
 ## Purposeful Pre-Planning
 
@@ -15,5 +16,3 @@ Understand as well that as an agile developer, you expect data and requirements 
 </webui-sideimage>
 
 <webui-cards card-width="580" theme="info" src="/cards/sow.json"></webui-cards>
-
-<webui-next-page name="Standards" href="/info/standards"></webui-next-page>

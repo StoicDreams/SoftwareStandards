@@ -1,4 +1,5 @@
 <webui-data data-page-title="Continuous Testing: Tenet 9 of Continuous Agile Software Engineering" data-page-subtitle=""></webui-data>
+<webui-data data-page-next-page='{"name":"Continuous Iterations","href":"/tenets/continuous-iterations"}'></webui-data>
 
 <webui-side-by-side>
 
@@ -87,5 +88,3 @@ By continuously improving their testing processes and integrating testing into t
 </webui-paper>
 
 </webui-side-by-side>
-
-<webui-next-page name="Continuous Iterations" href="/tenets/continuous-iterations"></webui-next-page>

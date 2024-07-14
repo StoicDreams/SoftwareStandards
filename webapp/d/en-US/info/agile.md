@@ -1,4 +1,5 @@
 <webui-data data-page-title="What is Agile Development?" data-page-subtitle=""></webui-data>
+<webui-data data-page-next-page='{"name":"Statement of Work","href":"/info/statement-of-work"}'></webui-data>
 
 <webui-sideimage reverse src="https://cdn.myfi.ws/v/Vecteezy/intellectual-capital-economic-growth-and-development-stock.svg">
 
@@ -39,5 +40,3 @@ That loop is Research-Prototype-Evaluate-Integrate-Test-Deploy-Validate.
 </webui-sideimage>
 
 <webui-cards card-width="580" src="/cards/agile.json"></webui-cards>
-
-<webui-next-page name="Statement of Work" href="/info/statement-of-work"></webui-next-page>

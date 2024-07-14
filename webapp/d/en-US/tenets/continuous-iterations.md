@@ -1,4 +1,5 @@
 <webui-data data-page-title="Continuous Iterations: Tenet 10 of Continuous Agile Software Engineering" data-page-subtitle=""></webui-data>
+<webui-data data-page-next-page='{"name":"Continuous Integrations","href":"/tenets/continuous-integrations"}'></webui-data>
 
 <webui-side-by-side>
 
@@ -85,5 +86,3 @@ By following the principles of Continuous Iterations, teams can reduce the risk 
 </webui-paper>
 
 </webui-side-by-side>
-
-<webui-next-page name="Continuous Integrations" href="/tenets/continuous-integrations"></webui-next-page>

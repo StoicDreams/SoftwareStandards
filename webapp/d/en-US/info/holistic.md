@@ -1,4 +1,5 @@
 <webui-data data-page-title="Holistic practices for Agile Development" data-page-subtitle=""></webui-data>
+<webui-data data-page-next-page='{"name":"Agile","href":"/info/agile"}'></webui-data>
 
 <webui-sideimage reverse src="https://cdn.myfi.ws/v/Vecteezy/people-are-building-a-spaceship-rocket-cohesive-teamwork-in.svg">
 
@@ -101,5 +102,3 @@ Another major issue we see is that tools, practices, and workflows are being dic
 Managers should be feeding developers problems to solve while providing the developers the trust to use their expertise to solve those problems.
 
 </webui-quote>
-
-<webui-next-page name="Agile" href="/info/agile"></webui-next-page>

@@ -1,4 +1,5 @@
 <webui-data data-page-title="Simple Software Engineering" data-page-subtitle=""></webui-data>
+<webui-data data-page-next-page='{"name":"Home","href":"/"}'></webui-data>
 
 <webui-quote theme="info" cite="Erik Gassler">
 
@@ -23,5 +24,3 @@ Before you start a new project, it can be helpful to think about all of the diff
 Creating a simple, manageable process is an important part of continuous agile software engineering. By taking a complicated task and breaking it down into smaller pieces, you can make sure that each component is simple and focused. This makes the overall process more manageable and less overwhelming. Additionally, by starting with small pieces, you can build and test each component individually using test-driven development workflows. In this way, you can ensure that your final product is high quality and meets the needs of your users.
 
 </webui-sideimage>
-
-<webui-next-page name="Home" href="/"></webui-next-page>

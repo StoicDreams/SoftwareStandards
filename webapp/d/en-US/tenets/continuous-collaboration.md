@@ -1,4 +1,5 @@
 <webui-data data-page-title="Continuous Collaboration: Tenet 7 of Continuous Agile Software Engineering" data-page-subtitle=""></webui-data>
+<webui-data data-page-next-page='{"name":"Continuous Learning","href":"/tenets/continuous-learning"}'></webui-data>
 
 <webui-side-by-side>
 
@@ -109,5 +110,3 @@ To apply this tenet, software engineers and teams should foster a collaborative 
 </webui-paper>
 
 </webui-side-by-side>
-
-<webui-next-page name="Continuous Learning" href="/tenets/continuous-learning"></webui-next-page>

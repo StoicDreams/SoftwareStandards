@@ -1,4 +1,5 @@
 <webui-data data-page-title="Continuous Learning: Tenet 8 of Continuous Agile Software Engineering" data-page-subtitle=""></webui-data>
+<webui-data data-page-next-page='{"name":"Continuous Testing","href":"/tenets/continuous-testing"}'></webui-data>
 
 <webui-side-by-side>
 
@@ -89,5 +90,3 @@ To apply this tenet, software engineers and teams should prioritize continuous l
 </webui-paper>
 
 </webui-side-by-side>
-
-<webui-next-page name="Continuous Testing" href="/tenets/continuous-testing"></webui-next-page>

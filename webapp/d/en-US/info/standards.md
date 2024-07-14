@@ -1,4 +1,5 @@
 <webui-data data-page-title="Team and Developer Standards" data-page-subtitle=""></webui-data>
+<webui-data data-page-next-page='{"name":"Tests","href":"/info/tests"}'></webui-data>
 
 <webui-sideimage src="https://cdn.myfi.ws/v/Vecteezy/business-concept-of-vector-illustration-little-people-links.svg">
 
@@ -53,5 +54,3 @@ Personal standards should only include standards that are subjective. Standards 
 ## Ownership of Standards
 
 <webui-cards card-width="580" theme="info" src="/cards/standards-ownership.json"></webui-cards>
-
-<webui-next-page name="Tests" href="/info/tests"></webui-next-page>

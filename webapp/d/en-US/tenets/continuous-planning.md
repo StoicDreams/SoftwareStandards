@@ -1,4 +1,5 @@
 <webui-data data-page-title="Continuous Planning: Tenet 6 of Continuous Agile Software Engineering" data-page-subtitle=""></webui-data>
+<webui-data data-page-next-page='{"name":"Continuous Collaboration","href":"/tenets/continuous-collaboration"}'></webui-data>
 
 <webui-side-by-side>
 
@@ -119,5 +120,3 @@ By following these principles, teams can establish continuous planning that help
 </webui-paper>
 
 </webui-side-by-side>
-
-<webui-next-page name="Continuous Collaboration" href="/tenets/continuous-collaboration"></webui-next-page>

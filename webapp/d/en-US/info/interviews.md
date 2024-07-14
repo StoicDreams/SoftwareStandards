@@ -1,4 +1,5 @@
 <webui-data data-page-title="Better interviewing for better Software Engineers" data-page-subtitle=""></webui-data>
+<webui-data data-page-next-page='{"name":"Home","href":"/"}'></webui-data>
 
 <webui-sideimage reverse src="https://cdn.myfi.ws/v/Vecteezy/employment-recruitment-concept-showing-human-resource.svg">
 
@@ -79,5 +80,3 @@ And if you don't like their work, then obviously there is no commitment to conti
 Not only does this allow you to truly see their best work, but it also opens the door to more constructive communication on how they develop and their thought process, as well as allowing your current team to learn from someone who might have a different perspective from them.
 
 </webui-sideimage>
-
-<webui-next-page name="Home" href="/"></webui-next-page>

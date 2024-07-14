@@ -1,4 +1,5 @@
 <webui-data data-page-title="Code Ownership: Tenet 2 of Continuous Agile Software Engineering" data-page-subtitle=""></webui-data>
+<webui-data data-page-next-page='{"name":"Continuous Agility","href":"/tenets/continuous-agility"}'></webui-data>
 
 <webui-side-by-side>
 
@@ -103,5 +104,3 @@ By embracing the tenet of Code Ownership and implementing its core principles, s
 </webui-paper>
 
 </webui-side-by-side>
-
-<webui-next-page name="Continuous Agility" href="/tenets/continuous-agility"></webui-next-page>

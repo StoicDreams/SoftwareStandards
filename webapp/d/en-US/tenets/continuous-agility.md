@@ -1,4 +1,5 @@
 <webui-data data-page-title="Continuous Agility: Tenet 3 of Continuous Agile Software Engineering" data-page-subtitle=""></webui-data>
+<webui-data data-page-next-page='{"name":"Continuous Feedback Loops","href":"/tenets/continuous-feedback-loops"}'></webui-data>
 
 <webui-side-by-side>
 
@@ -77,5 +78,3 @@ By adopting the principles of Continuous Agility, software development teams can
 </webui-paper>
 
 </webui-side-by-side>
-
-<webui-next-page name="Continuous Feedback Loops" href="/tenets/continuous-feedback-loops"></webui-next-page>

@@ -1,4 +1,5 @@
 <webui-data data-page-title="Continuous Agile Software Engineering" data-page-subtitle=""></webui-data>
+<webui-data data-page-next-page='{"name":"Keep it Simple","href":"/tenets/keep-it-simple"}'></webui-data>
 
 <webui-sideimage reverse src="https://cdn.myfi.ws/img/case/CASE_Hardcover_Circle.webp">
 
@@ -101,5 +102,3 @@ The CASE methodologies are broken up into twelve tenets, with each tenet contain
 <webui-cards src="cards/case-tenets.json" card-width="580" theme="success"></webui-cards>
 
 <app-books></app-books>
-
-<webui-next-page name="Keep it Simple" href="/tenets/keep-it-simple"></webui-next-page>

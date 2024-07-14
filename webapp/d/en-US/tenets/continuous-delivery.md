@@ -1,4 +1,5 @@
 <webui-data data-page-title="Continuous Delivery: Tenet 12 of Continuous Agile Software Engineering" data-page-subtitle=""></webui-data>
+<webui-data data-page-next-page='{"name":"Holistic","href":"/info/holistic"}'></webui-data>
 
 <webui-side-by-side>
 
@@ -77,5 +78,3 @@ The benefits of continuous delivery are numerous, including faster release cycle
 </webui-paper>
 
 </webui-side-by-side>
-
-<webui-next-page name="Holistic" href="/info/holistic"></webui-next-page>

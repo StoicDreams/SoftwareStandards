@@ -1,4 +1,5 @@
 <webui-data data-page-title="Test Strategies for Continuous Development" data-page-subtitle=""></webui-data>
+<webui-data data-page-next-page='{"name":"Interviews","href":"/info/interviews"}'></webui-data>
 
 <webui-quote theme="info">
 
@@ -150,5 +151,3 @@ Generally, this type of testing might just be a matter of running a specified N 
 While performance tests should assert a deployment failure when minimum performance metrics are not met, load tests may not need to require a deployment failure. Instead, load testing should be a way of measuring current load capacity to compare with load expectations and help drive business decisions to prioritize work to expand load capacity and assure your application will stay stable and usable up to and beyond the expected load. As well as assure that when the load is exceeded any expected alarms or safety actions are triggered so anyone who needs to be notified is properly notified and the app can be returned to a stable state as quickly as possible.
 
 </webui-sideimage>
-
-<webui-next-page name="Interviews" href="/info/interviews"></webui-next-page>
