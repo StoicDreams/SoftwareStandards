@@ -8,9 +8,6 @@ Website for documenting software development standards across various roles incl
 
 ### Prerequisites
 
-* Visual Studio 2022
-* .NET Blazor
-
 ### Installing
 
 Website coming soon to detail installation instructions and usage of our libraries and frameworks.
