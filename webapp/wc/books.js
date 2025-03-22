@@ -23,7 +23,7 @@ Note: These links use an affiliate tracker that allow us to earn an extra commis
 
 <webui-paper class="pa-2" elevation="10">
 
-<webui-link target="_blank" href="https://amzn.to/48S30VU" class="theme-secondary pa-3">
+<webui-link target="_blank" href="https://a.co/d/0reKAjn" class="theme-secondary pa-3">
 
 Kindle
 
@@ -33,7 +33,7 @@ Kindle
 
 <webui-paper class="pa-2" elevation="10">
 
-<webui-link target="_blank" href="https://amzn.to/3Sgpyu3" class="theme-tertiary pa-3">
+<webui-link target="_blank" href="https://a.co/d/9Kiyse8" class="theme-tertiary pa-3">
 
 Paperback
 
@@ -43,7 +43,7 @@ Paperback
 
 <webui-paper class="pa-2" elevation="10">
 
-<webui-link target="_blank" href="https://amzn.to/3vue8db" class="theme-primary pa-3">
+<webui-link target="_blank" href="https://a.co/d/3da8fQc" class="theme-primary pa-3">
 
 Hardcover
 
@@ -52,8 +52,6 @@ Hardcover
 </webui-paper>
 
 </webui-flex>
-
-*As an Amazon Associate I earn from qualifying purchases.*
 
 </webui-flex>
 
