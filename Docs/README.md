@@ -1,6 +1,6 @@
 # Software Standards
 
-[Version: 0.1.1](https://github.com/StoicDreams/SoftwareStandards)
+[Version: 0.1.2](https://github.com/StoicDreams/SoftwareStandards)
 
 [WebUI Version: 0.10.11](https://github.com/StoicDreams/WebUI)
 
