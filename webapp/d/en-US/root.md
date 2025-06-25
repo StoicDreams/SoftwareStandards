@@ -91,13 +91,13 @@ And additionally, don't demand the same standards, workflows, and methodologies 
 
 ## Twelve Tenets of Continuous Agile Software Engineering
 
-<webui-page-segment>
+<webui-page-segment elevation="10">
 
 The CASE methodologies are broken up into twelve tenets, with each tenet containing three core principles.
 
 </webui-page-segment>
 
-<webui-page-segment>
+<webui-page-segment elevation="10">
 
 <webui-cards src="cards/case-tenets.json" card-width="580" theme="success"></webui-cards>
 
