@@ -8,19 +8,24 @@ Website: [www.SoftwareStandards.dev](https://www.softwarestandards.dev)
 
 Website for documenting software development standards across various roles including but not limited to, Software Engineers, Project Managers, Managers.
 
-### Prerequisites
+## Ideas
 
-### Installing
+- Provide comprehensive documentation for CASE: Continuous Agile Software Engineering, including best practices, standards, and workflows.
+- Share insights and methodologies for software development that can be applied across different teams and projects.
 
-Website coming soon to detail installation instructions and usage of our libraries and frameworks.
+## Development
 
-## Unit Tests
+### Setup
 
-Unit test library will be linked here once uploaded to GitHub.
+Before running this project, follow the [Web CLI Setup](https://webui.stoicdeams.com/tools/cli) guide and the [Web UI Rust Tools Setup](https://webui.stoicdreams.com/tools/rust) guide to install the necessary tools and dependencies.
 
-## Contributing
+### Running the Project
 
-We are not currently accepting contributions to this project. But if you'd like to provide feedback or ask questions, please visit [Hatch My Web](https://www.stoicdreams.com/home) and drop us a comment through our Feedback module.
+To run the project locally, you can use the following command:
+
+```terminal:Run the project from the root directory
+./PowerShell/RunLocal.ps1 -port 3210
+```
 
 ## Author
 
