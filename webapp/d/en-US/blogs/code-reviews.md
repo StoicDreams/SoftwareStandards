@@ -33,7 +33,7 @@ The value of review isn't in catching typos - it's in building shared understand
 ### Trust and Safety in CI/CD
 
 <webui-page-segment elevation="10">
-Of course, the question always comes up: "But what if bad code gets merged?" The answer is simple: CI/CD only works if you trust your safety nets. Automated tests, observability, feature flags, and fast rollback are what keep bad code from hurting users.
+Of course, the question always comes up: "But what if bad code gets merged?" The answer is simple: CI/CD only works if you trust your safety nets. Automated tests, observability, feature flags, and fast fixes are what keep bad code from hurting users.
 
 If your process relies on a human reviewer as the last line of defense, you don't have CI/CD. You have manual QA with extra steps. Continuous delivery demands that we design for failure and recovery, not for preventing all mistakes up front.
 
