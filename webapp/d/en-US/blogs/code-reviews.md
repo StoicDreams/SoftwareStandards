@@ -1,5 +1,7 @@
 <webui-data data-page-title="Code Reviews" data-page-subtitle=""></webui-data>
 
+> [Erik Gassler] Published August 22, 2025
+
 ## Code Reviews Don't Belong in Your CI/CD Pipeline
 
 <webui-page-segment elevation="10">
@@ -7,8 +9,6 @@ One of the biggest mistakes I see in teams practicing CI/CD is the idea that cod
 
 If humans are sitting in the middle of your automation, you don't have a continuous pipeline anymore. You have a stoplight.
 </webui-page-segment>
-
-> [Erik Gassler] Published August 22, 2025
 
 ### CI/CD Requires Flow
 
