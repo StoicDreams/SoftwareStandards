@@ -71,6 +71,17 @@
         ]
     },
     {
+        "name": "Blogs",
+        "icon": "blog",
+        "children": [
+            {
+                "name": "Code Reviews",
+                "icon": "code",
+                "url": "/blogs/code-reviews"
+            }
+        ]
+    },
+    {
         "name": "Holistic",
         "icon": "infinity",
         "url": "/info/holistic"
