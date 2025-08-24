@@ -91,6 +91,8 @@ And additionally, don't demand the same standards, workflows, and methodologies 
 
 ## Twelve Tenets of Continuous Agile Software Engineering
 
+<webui-content>
+    <iframe width="90%" style="aspect-ratio:calc(16 / 9);" class="mx-a" src="https://www.youtube.com/embed/IVPHtC0H2fU?si=ZQd3sDLnbR-yvaT7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 <webui-page-segment elevation="10">
 
 The CASE methodologies are broken up into twelve tenets, with each tenet containing three core principles.
