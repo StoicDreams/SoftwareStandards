@@ -1,7 +1,8 @@
 /* Display CASE books */
 "use strict"
 webui.define("app-books", {
-    connected: (t) => {
+    connected() {
+        const t = this;
         t.innerHTML = webui.applyAppDataToContent(`
 <webui-side-by-side>
 
