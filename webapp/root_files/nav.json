@@ -1,104 +1,104 @@
 [
     {
         "name": "Home",
-        "icon": "home",
+        "icon": "emoji-house|theme:title|shape:circle|backing",
         "url": "/continuous-agile-software-engineering"
     },
     {
         "name": "CASE Tenets",
-        "icon": "books",
+        "icon": "emoji-anchor",
         "children": [
             {
                 "name": "Keep it Simple",
-                "icon": "circle",
+                "icon": "emoji-seedling",
                 "url": "/tenets/keep-it-simple"
             },
             {
                 "name": "Code Ownership",
-                "icon": "circle",
+                "icon": "emoji-key",
                 "url": "/tenets/code-ownership"
             },
             {
                 "name": "Continuous Agility",
-                "icon": "circle",
+                "icon": "emoji-cyclone",
                 "url": "/tenets/continuous-agility"
             },
             {
                 "name": "Continuous Feedback Loops",
-                "icon": "circle",
+                "icon": "emoji-repeat",
                 "url": "/tenets/continuous-feedback-loops"
             },
             {
                 "name": "Continuous Automation",
-                "icon": "circle",
+                "icon": "emoji-robot",
                 "url": "/tenets/continuous-automation"
             },
             {
                 "name": "Continuous Planning",
-                "icon": "circle",
+                "icon": "emoji-spiral_calendar",
                 "url": "/tenets/continuous-planning"
             },
             {
                 "name": "Continuous Collaboration",
-                "icon": "circle",
+                "icon": "emoji-handshake",
                 "url": "/tenets/continuous-collaboration"
             },
             {
                 "name": "Continuous Learning",
-                "icon": "circle",
+                "icon": "emoji-graduation_cap",
                 "url": "/tenets/continuous-learning"
             },
             {
                 "name": "Continuous Testing",
-                "icon": "circle",
+                "icon": "emoji-microscope",
                 "url": "/tenets/continuous-testing"
             },
             {
                 "name": "Continuous Iterations",
-                "icon": "circle",
+                "icon": "emoji-recycle",
                 "url": "/tenets/continuous-iterations"
             },
             {
                 "name": "Continuous Integrations",
-                "icon": "circle",
+                "icon": "emoji-link",
                 "url": "/tenets/continuous-integrations"
             },
             {
                 "name": "Continuous Delivery",
-                "icon": "circle",
+                "icon": "emoji-truck",
                 "url": "/tenets/continuous-delivery"
             }
         ]
     },
     {
         "name": "Blogs",
-        "icon": "blog",
+        "icon": "emoji-memo",
         "children": [
             {
                 "name": "Code Reviews",
-                "icon": "code",
+                "icon": "emoji-eye",
                 "url": "/blogs/code-reviews"
             }
         ]
     },
     {
         "name": "Holistic",
-        "icon": "infinity",
+        "icon": "emoji-sun_with_face",
         "url": "/info/holistic"
     },
     {
         "name": "Agile",
-        "icon": "arrows-split-up-and-left",
+        "icon": "emoji-running_shoe",
         "url": "/info/agile"
     },
     {
         "name": "SOW",
-        "icon": "scroll",
+        "icon": "emoji-scroll",
         "url": "/info/statement-of-work"
     },
     {
         "name": "Standards",
-        "icon": "train-track",
+        "icon": "emoji-straight_ruler",
         "url": "/info/standards"
     },
     {
@@ -108,7 +108,7 @@
     },
     {
         "name": "Interviews",
-        "icon": "clipboard-list-check",
+        "icon": "emoji-clipboard",
         "url": "/info/interviews"
     }
 ]
