@@ -103,4 +103,8 @@ The CASE methodologies are broken up into twelve tenets, with each tenet contain
 
 <webui-cards src="cards/case-tenets.json" card-width="580" theme="success"></webui-cards>
 
+</webui-page-segment>
+
+</webui-content>
+
 <app-books></app-books>
