@@ -1,114 +1,114 @@
 [
     {
         "name": "Home",
-        "icon": "circle_emoji-house|theme:title|backing|inverted",
+        "icon": "circle_home|theme:title|backing|inverted",
         "url": "/continuous-agile-software-engineering"
     },
     {
         "name": "CASE Tenets",
-        "icon": "emoji-anchor",
+        "icon": "circle_anchor|theme:primary|backing|inverted",
         "children": [
             {
                 "name": "Keep it Simple",
-                "icon": "emoji-seedling",
+                "icon": "seedling",
                 "url": "/tenets/keep-it-simple"
             },
             {
                 "name": "Code Ownership",
-                "icon": "emoji-key",
+                "icon": "key",
                 "url": "/tenets/code-ownership"
             },
             {
                 "name": "Continuous Agility",
-                "icon": "emoji-cyclone",
+                "icon": "bolt",
                 "url": "/tenets/continuous-agility"
             },
             {
                 "name": "Continuous Feedback Loops",
-                "icon": "emoji-repeat",
+                "icon": "repeat",
                 "url": "/tenets/continuous-feedback-loops"
             },
             {
                 "name": "Continuous Automation",
-                "icon": "emoji-robot",
+                "icon": "robot",
                 "url": "/tenets/continuous-automation"
             },
             {
                 "name": "Continuous Planning",
-                "icon": "emoji-spiral_calendar",
+                "icon": "calendar",
                 "url": "/tenets/continuous-planning"
             },
             {
                 "name": "Continuous Collaboration",
-                "icon": "emoji-handshake",
+                "icon": "handshake",
                 "url": "/tenets/continuous-collaboration"
             },
             {
                 "name": "Continuous Learning",
-                "icon": "emoji-graduation_cap",
+                "icon": "graduation-cap",
                 "url": "/tenets/continuous-learning"
             },
             {
                 "name": "Continuous Testing",
-                "icon": "emoji-microscope",
+                "icon": "test",
                 "url": "/tenets/continuous-testing"
             },
             {
                 "name": "Continuous Iterations",
-                "icon": "emoji-recycle",
+                "icon": "refresh",
                 "url": "/tenets/continuous-iterations"
             },
             {
                 "name": "Continuous Integrations",
-                "icon": "emoji-link",
+                "icon": "code-merge",
                 "url": "/tenets/continuous-integrations"
             },
             {
                 "name": "Continuous Delivery",
-                "icon": "emoji-truck",
+                "icon": "rocket",
                 "url": "/tenets/continuous-delivery"
             }
         ]
     },
     {
         "name": "Blogs",
-        "icon": "emoji-memo",
+        "icon": "circle_newspaper|theme:secondary|backing|inverted",
         "children": [
             {
                 "name": "Code Reviews",
-                "icon": "emoji-eye",
+                "icon": "code-pull-request",
                 "url": "/blogs/code-reviews"
             }
         ]
     },
     {
         "name": "Holistic",
-        "icon": "emoji-sun_with_face",
+        "icon": "sun",
         "url": "/info/holistic"
     },
     {
         "name": "Agile",
-        "icon": "emoji-running_shoe",
+        "icon": "kanban",
         "url": "/info/agile"
     },
     {
         "name": "SOW",
-        "icon": "emoji-scroll",
+        "icon": "signature",
         "url": "/info/statement-of-work"
     },
     {
         "name": "Standards",
-        "icon": "emoji-straight_ruler",
+        "icon": "ruler",
         "url": "/info/standards"
     },
     {
         "name": "Tests",
-        "icon": "emoji-test_tube",
+        "icon": "test",
         "url": "/info/tests"
     },
     {
         "name": "Interviews",
-        "icon": "emoji-clipboard",
+        "icon": "messages",
         "url": "/info/interviews"
     }
 ]
