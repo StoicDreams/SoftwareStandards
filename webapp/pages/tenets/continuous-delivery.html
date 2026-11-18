@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+	<!-- Google tag (gtag.js) -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-WYD1GW6NWL"></script>
+	<script>
+		if (location.hostname !== 'localhost') {
+			window.dataLayer = window.dataLayer || [];
+			function gtag() { dataLayer.push(arguments); }
+			gtag('js', new Date());
+			gtag('config', 'G-WYD1GW6NWL');
+		}
+	</script>
+	<title>Continuous Delivery: Tenet 12 of Continuous Agile Software Engineering</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="robots" content="index, follow">
+	<base href="/" />
+	<script type="text/javascript">
+		navigator.serviceWorker.register('service-worker.min.js');
+	</script>
+
+	<link rel="dns-prefetch" href="https://cdn.myfi.ws" />
+	<link rel="dns-prefetch" href="https://api.myfi.ws" />
+	<link rel="preconnect" href="https://cdn.myfi.ws">
+	<link rel="preconnect" href="https://api.myfi.ws">
+
+	<link href="Logo.svg?v=a7ce4cdaf0" rel="icon" type="image/svg+xml" sizes="any" />
+	<link rel="manifest" href="app.webmanifest?v=0004832c1f">
+
+	<script>
+		// Web UI loads from the local MyFiCDN server (MyFiCDN/PowerShell/RunLocal.ps1) when the site runs on localhost,
+		// so framework changes show before they are published, and from cdn.myfi.ws everywhere else.
+		window.webuiCdn = /^(localhost|127\.0\.0\.1|\[::1\])$/.test(location.hostname) ? 'http://localhost:3180/' : 'https://cdn.myfi.ws/';
+		document.write('<link href="' + webuiCdn + 'css/webui.min.css" rel="stylesheet" />');
+	</script>
+	<link href="css/app.min.css?v=27a41e2b3b" rel="stylesheet" />
+	<script>document.write('<script src="' + webuiCdn + 'webui/loader.min.js"></' + 'script>');</script>
+
+	<!-- Prerendered pages from webapp_post_build prerender. Release builds copy them to the site root. -->
+
+	<!--Web Worker-->
+	<script type="module" src="main.js?v=cea15cbf4f"></script>
+	<!--End Web Worker-->
+
+	<meta name="theme-color" content="#1240da" />
+
+	<meta name="author" content="Erik Gassler">
+	<meta name="description" content="Tenet 12 of CASE: deploy tested changes to production as often as possible through fully automated delivery that is quick and safe.">
+
+	<meta property="og:image" content="https://www.softwarestandards.dev/Logo.svg">
+	<meta property="og:title" content="Continuous Delivery: Tenet 12 of Continuous Agile Software Engineering">
+	<meta property="og:url" content="https://www.softwarestandards.dev/tenets/continuous-delivery">
+	<meta property="og:description" content="Tenet 12 of CASE: deploy tested changes to production as often as possible through fully automated delivery that is quick and safe.">
+
+	<meta name="twitter:title" content="Continuous Delivery: Tenet 12 of Continuous Agile Software Engineering">
+	<meta name="twitter:url" content="https://www.softwarestandards.dev/tenets/continuous-delivery">
+	<meta name="twitter:site" content="@stoicdreamsllc">
+	<meta name="twitter:description" content="Tenet 12 of CASE: deploy tested changes to production as often as possible through fully automated delivery that is quick and safe.">
+	<meta name="twitter:image" content="https://www.softwarestandards.dev/Logo.svg">
+	<link rel="canonical" href="https://www.softwarestandards.dev/tenets/continuous-delivery" />
+	<link rel="modulepreload" href="https://cdn.myfi.ws/js/mdparse.min.js" crossorigin="anonymous" />
+	<link rel="preload" as="script" href="https://cdn.myfi.ws/webui/alerts.min.js" crossorigin="anonymous" />
+	<link rel="preload" as="script" href="https://cdn.myfi.ws/webui/app.min.js" crossorigin="anonymous" />
+	<link rel="preload" as="script" href="https://cdn.myfi.ws/webui/app-config.min.js" crossorigin="anonymous" />
+	<link rel="preload" as="script" href="https://cdn.myfi.ws/webui/data.min.js" crossorigin="anonymous" />
+	<link rel="preload" as="script" href="https://cdn.myfi.ws/webui/drawer.min.js" crossorigin="anonymous" />
+	<link rel="preload" as="script" href="https://cdn.myfi.ws/webui/feedback.min.js" crossorigin="anonymous" />
+	<link rel="preload" as="script" href="https://cdn.myfi.ws/webui/flex.min.js" crossorigin="anonymous" />
+	<link rel="preload" as="script" href="https://cdn.myfi.ws/webui/icon.min.js" crossorigin="anonymous" />
+	<link rel="preload" as="script" href="https://cdn.myfi.ws/webui/link.min.js" crossorigin="anonymous" />
+	<link rel="preload" as="script" href="https://cdn.myfi.ws/webui/myfi-info.min.js" crossorigin="anonymous" />
+	<link rel="preload" as="script" href="https://cdn.myfi.ws/webui/nav.min.js" crossorigin="anonymous" />
+	<link rel="preload" as="script" href="https://cdn.myfi.ws/webui/next-page.min.js" crossorigin="anonymous" />
+	<link rel="preload" as="script" href="https://cdn.myfi.ws/webui/page-footer.min.js" crossorigin="anonymous" />
+	<link rel="preload" as="script" href="https://cdn.myfi.ws/webui/paper.min.js" crossorigin="anonymous" />
+	<link rel="preload" as="script" href="https://cdn.myfi.ws/webui/side-by-side.min.js" crossorigin="anonymous" />
+	<link rel="preload" as="script" href="https://cdn.myfi.ws/webui/stoic-dreams-logo.min.js" crossorigin="anonymous" />
+	<link rel="preload" as="script" href="https://cdn.myfi.ws/webui/stoic-social-links.min.js" crossorigin="anonymous" />
+	<meta name="webui-prerender" content="f698844ba5">
+</head>
+
+<body>
+	<webui-app-config src="appConfig.json"></webui-app-config>
+	<webui-app data-removeclass=".nav|open;.shared|open">
+		<div data-prerendered>
+<h2>Introduction</h2>
+
+<p>Continuous Delivery, also referred to as CD, means that teams should aim to deploy their code changes to production as frequently as possible through completely automated processes.</p>
+<p>Continuous and automated delivery is critical to ensuring that teams can deliver new features and improvements to their users quickly and efficiently. By automating the deployment process and ensuring that code changes have been thoroughly tested before deployment, teams can reduce the risk associated with deploying code changes to production and improve customer satisfaction.</p>
+
+
+
+<h2>Core Principle 1: Automate Production Deployment</h2>
+
+<p>Automating production deployment is an essential practice for ensuring that code changes are delivered to the end-users quickly and with minimal errors. This principle emphasizes that the deployment process should be automated, which helps reduce the risk of human error and increase the speed of delivery.</p>
+<p>Automating the deployment process involves defining a repeatable and predictable deployment process, using tools and scripts to automate the process, and integrating it into the continuous integration and delivery pipeline. Automation enables teams to test and deploy changes more quickly, with greater consistency and reliability.</p>
+<p>One of the key benefits of automated production deployment is that it enables teams to deploy changes frequently and in small batches, reducing the risk of problems and making it easier to detect and fix issues quickly. This approach helps teams to deliver value to users more rapidly and with greater quality.</p>
+<p>However, it's important to note that automating production deployment is not a silver bullet. Teams must also focus on testing, monitoring, and error handling to ensure that changes are deployed safely and with minimal disruption to users. And adopt concepts such as feature flagging, to assure that incremental updates for new features can be safely deployed to production before the features are fully ready for mass usage.</p>
+
+
+
+<h2>Core Principle 2: Automate Development Deployments</h2>
+
+<p>Automating local development deployments and configurations is an essential aspect of modern software development. Automating these tasks helps developers to onboard to new projects quickly and focus on writing and testing code instead of spending time on manual setup and configuration tasks.</p>
+<p>Automating local development deployments and configurations is an important part of continuous integration and delivery. By automating these tasks, developers can ensure that their code is always tested and deployed in a consistent and repeatable way, which leads to a faster and more reliable software development process.</p>
+
+
+
+<h2>Core Principle 3: Monitor and Measure</h2>
+
+<p>Monitoring and measuring are crucial components of any continuous delivery process. By continually tracking the performance of your application, you can identify any issues or potential problems early on and take corrective action before they escalate into more significant problems.</p>
+<p>There are many tools available that can help you monitor and measure your application's performance, including application performance monitoring (APM) tools, log analysis tools, and analytics platforms. These tools can provide real-time visibility into the performance of your application, including response times, error rates, and other key metrics.</p>
+<p>In addition to monitoring your application's performance, it's also important to measure the effectiveness of your continuous delivery process. This can include tracking metrics such as deployment frequency, lead time for changes, and time to recover from failures. By regularly measuring these metrics, you can identify areas for improvement and adjust your process to optimize its effectiveness.</p>
+<p>Ultimately, the goal of monitoring and measuring is to gain insight into your application's performance and your continuous delivery process's effectiveness, so you can continuously improve both. By incorporating these practices into your continuous delivery process, you can ensure that your application is always performing at its best and that your team is always working as efficiently and effectively as possible.</p>
+
+
+
+<h2>Conclusion</h2>
+
+<p>Continuous Delivery adoption enables deploying code changes to production to be rapid and reliable, while ensuring that they are thoroughly tested and meet the necessary quality standards.</p>
+<p>The benefits of continuous delivery are numerous, including faster release cycles, improved customer satisfaction, and reduced risk of errors or failures. By automating the deployment process and integrating testing and monitoring throughout the development process, teams can deliver software that meets the needs of their users while minimizing the risk of downtime or other issues.</p>
+		</div>
+		<webui-drawer slot="left" class="nav elevation-20" docked="true" data-state="slot|docked" data-moveable data-dockable>
+			<webui-flex justify="center" slot="header">
+				<webui-stoic-dreams-logo title="Software Development Standards Website Logo" text="Soft Dev" text2="Standards"></webui-stoic-dreams-logo>
+			</webui-flex>
+			<webui-nav routes="/nav.json" data-subscribe="app-nav-routes:setNavRoutes"></webui-nav>
+		</webui-drawer>
+		<webui-drawer slot="right" class="shared elevation-20" data-stopclick data-moveable data-state="slot">
+		</webui-drawer>
+		<header slot="header">
+			<button aria-label="open navigation menu" data-toggleclass=".nav|open" class="elevation-10 pa-1 mx-1">
+				<webui-icon icon="hamburger"></webui-icon>
+			</button>
+			<h1 data-subscribe="page-title:innerHTML">Continuous Delivery: Tenet 12 of Continuous Agile Software Engineering</h1>
+			<h2 data-subscribe="page-subtitle:innerHTML"></h2>
+			<webui-flex grow></webui-flex>
+			<webui-feedback title="Provide us your feedback" data-post="https://api.myfi.ws/feedback/new" data-json-name="message">
+				<p>You can also come <a href="https://discord.gg/5X4YSDFdHD">chat with us on the Stoic Dreams discord server.</a></p>
+			</webui-feedback>
+			<webui-alerts title="View your notifications" data-title="My Alerts" data-toggleclass=".shared|open"></webui-alerts>
+			<webui-myfi-info sign-in-label="Sign In">
+				<template slot="panel-content">
+					<webui-alert show variant="info">Example Account Panel</webui-alert>
+				</template>
+			</webui-myfi-info>
+		</header>
+		<noscript>Javascript is required to view this site</noscript>
+		<webui-page-footer copyright="2021" company="Stoic Dreams">
+			<webui-next-page theme="tertiary" data-subscribe="page-next-page"></webui-next-page>
+			<webui-flex class="my-3" justify="center" wrap>
+				<webui-link href="/about" icon="circle_exclamation|backing|bordered">About Software Development Standards</webui-link>
+				<webui-link href="/contact" icon="messages|fill|shade:tri">Contact Stoic Dreams</webui-link>
+				<webui-link href="/privacy" icon="shield_exclamation|backing|bordered">Privacy</webui-link>
+				<webui-link href="/terms" icon="handshake|fill|shade:tri">Terms & Conditions</webui-link>
+			</webui-flex>
+			<webui-stoic-social-links class="mb-2"></webui-stoic-social-links>
+		</webui-page-footer>
+	</webui-app>
+</body>
+
+</html>

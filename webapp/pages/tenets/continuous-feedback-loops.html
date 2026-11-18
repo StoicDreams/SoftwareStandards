@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+	<!-- Google tag (gtag.js) -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-WYD1GW6NWL"></script>
+	<script>
+		if (location.hostname !== 'localhost') {
+			window.dataLayer = window.dataLayer || [];
+			function gtag() { dataLayer.push(arguments); }
+			gtag('js', new Date());
+			gtag('config', 'G-WYD1GW6NWL');
+		}
+	</script>
+	<title>Continuous Feedback Loops: Tenet 4 of Continuous Agile Software Engineering</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="robots" content="index, follow">
+	<base href="/" />
+	<script type="text/javascript">
+		navigator.serviceWorker.register('service-worker.min.js');
+	</script>
+
+	<link rel="dns-prefetch" href="https://cdn.myfi.ws" />
+	<link rel="dns-prefetch" href="https://api.myfi.ws" />
+	<link rel="preconnect" href="https://cdn.myfi.ws">
+	<link rel="preconnect" href="https://api.myfi.ws">
+
+	<link href="Logo.svg?v=a7ce4cdaf0" rel="icon" type="image/svg+xml" sizes="any" />
+	<link rel="manifest" href="app.webmanifest?v=0004832c1f">
+
+	<script>
+		// Web UI loads from the local MyFiCDN server (MyFiCDN/PowerShell/RunLocal.ps1) when the site runs on localhost,
+		// so framework changes show before they are published, and from cdn.myfi.ws everywhere else.
+		window.webuiCdn = /^(localhost|127\.0\.0\.1|\[::1\])$/.test(location.hostname) ? 'http://localhost:3180/' : 'https://cdn.myfi.ws/';
+		document.write('<link href="' + webuiCdn + 'css/webui.min.css" rel="stylesheet" />');
+	</script>
+	<link href="css/app.min.css?v=27a41e2b3b" rel="stylesheet" />
+	<script>document.write('<script src="' + webuiCdn + 'webui/loader.min.js"></' + 'script>');</script>
+
+	<!-- Prerendered pages from webapp_post_build prerender. Release builds copy them to the site root. -->
+
+	<!--Web Worker-->
+	<script type="module" src="main.js?v=cea15cbf4f"></script>
+	<!--End Web Worker-->
+
+	<meta name="theme-color" content="#1240da" />
+
+	<meta name="author" content="Erik Gassler">
+	<meta name="description" content="Tenet 4 of CASE: gather, share, and act on feedback throughout development to catch issues early and keep delivering customer value.">
+
+	<meta property="og:image" content="https://www.softwarestandards.dev/Logo.svg">
+	<meta property="og:title" content="Continuous Feedback Loops: Tenet 4 of Continuous Agile Software Engineering">
+	<meta property="og:url" content="https://www.softwarestandards.dev/tenets/continuous-feedback-loops">
+	<meta property="og:description" content="Tenet 4 of CASE: gather, share, and act on feedback throughout development to catch issues early and keep delivering customer value.">
+
+	<meta name="twitter:title" content="Continuous Feedback Loops: Tenet 4 of Continuous Agile Software Engineering">
+	<meta name="twitter:url" content="https://www.softwarestandards.dev/tenets/continuous-feedback-loops">
+	<meta name="twitter:site" content="@stoicdreamsllc">
+	<meta name="twitter:description" content="Tenet 4 of CASE: gather, share, and act on feedback throughout development to catch issues early and keep delivering customer value.">
+	<meta name="twitter:image" content="https://www.softwarestandards.dev/Logo.svg">
+	<link rel="canonical" href="https://www.softwarestandards.dev/tenets/continuous-feedback-loops" />
+	<link rel="modulepreload" href="https://cdn.myfi.ws/js/mdparse.min.js" crossorigin="anonymous" />
+	<link rel="preload" as="script" href="https://cdn.myfi.ws/webui/alerts.min.js" crossorigin="anonymous" />
+	<link rel="preload" as="script" href="https://cdn.myfi.ws/webui/app.min.js" crossorigin="anonymous" />
+	<link rel="preload" as="script" href="https://cdn.myfi.ws/webui/app-config.min.js" crossorigin="anonymous" />
+	<link rel="preload" as="script" href="https://cdn.myfi.ws/webui/data.min.js" crossorigin="anonymous" />
+	<link rel="preload" as="script" href="https://cdn.myfi.ws/webui/drawer.min.js" crossorigin="anonymous" />
+	<link rel="preload" as="script" href="https://cdn.myfi.ws/webui/feedback.min.js" crossorigin="anonymous" />
+	<link rel="preload" as="script" href="https://cdn.myfi.ws/webui/flex.min.js" crossorigin="anonymous" />
+	<link rel="preload" as="script" href="https://cdn.myfi.ws/webui/icon.min.js" crossorigin="anonymous" />
+	<link rel="preload" as="script" href="https://cdn.myfi.ws/webui/link.min.js" crossorigin="anonymous" />
+	<link rel="preload" as="script" href="https://cdn.myfi.ws/webui/myfi-info.min.js" crossorigin="anonymous" />
+	<link rel="preload" as="script" href="https://cdn.myfi.ws/webui/nav.min.js" crossorigin="anonymous" />
+	<link rel="preload" as="script" href="https://cdn.myfi.ws/webui/next-page.min.js" crossorigin="anonymous" />
+	<link rel="preload" as="script" href="https://cdn.myfi.ws/webui/page-footer.min.js" crossorigin="anonymous" />
+	<link rel="preload" as="script" href="https://cdn.myfi.ws/webui/paper.min.js" crossorigin="anonymous" />
+	<link rel="preload" as="script" href="https://cdn.myfi.ws/webui/side-by-side.min.js" crossorigin="anonymous" />
+	<link rel="preload" as="script" href="https://cdn.myfi.ws/webui/stoic-dreams-logo.min.js" crossorigin="anonymous" />
+	<link rel="preload" as="script" href="https://cdn.myfi.ws/webui/stoic-social-links.min.js" crossorigin="anonymous" />
+	<meta name="webui-prerender" content="84d8c3cd8e">
+</head>
+
+<body>
+	<webui-app-config src="appConfig.json"></webui-app-config>
+	<webui-app data-removeclass=".nav|open;.shared|open">
+		<div data-prerendered>
+<h2>Introduction</h2>
+
+<p>Continuous Feedback Loops is about creating an environment where feedback is continuously gathered, shared, and acted upon. This enables software development teams to stay focused on delivering value to customers, identify and address issues early, and adapt to changing requirements more efficiently.</p>
+
+
+
+<h2>Core Principle 1: Gather Feedback</h2>
+
+<p>To establish continuous feedback loops, teams must actively gather feedback from various sources throughout the development process. This can be done in several ways:</p>
+<h3>Use analytics tools</h3>
+<p>Implement analytics tools, such as Google Analytics, New Relic, or Mixpanel, to monitor user behavior, performance, and other metrics that can provide valuable insights into the quality and effectiveness of the software.</p>
+<h3>Conduct user interviews and surveys</h3>
+<p>Engage with customers and users to gather direct feedback on their experiences and pain points. Regularly conduct user interviews, surveys, or focus groups to gain valuable insights into their needs and expectations.</p>
+<h3>Encourage stakeholder involvement</h3>
+<p>Involve stakeholders, such as product owners, business analysts, and other non-technical team members, in the development process. Hold regular meetings or reviews to share updates, gather feedback, and discuss potential improvements or adjustments to the project.</p>
+<h3>Foster a culture of open communication within the team</h3>
+<p>Encourage team members to share their feedback, ideas, and concerns openly and honestly. Hold regular feedback meetings, retrospectives, or other meetings to facilitate these discussions and ensure that feedback is heard and acted upon.</p>
+
+
+
+<h2>Core Principle 2: Use Feedback to Inform Decisions</h2>
+
+<p>Once feedback is gathered, it must be used to inform decision-making throughout the development process. Teams should:</p>
+<h3>Prioritize user feedback</h3>
+<p>When making decisions about features, design, and other aspects of the development process, prioritize user feedback to ensure that the end product meets their needs and expectations.</p>
+<h3>Analyze feedback and identify trends</h3>
+<p>Analyze the collected feedback and identify trends, recurring issues, or areas of improvement. Use this information to prioritize tasks and make data-driven decisions that can improve the quality and effectiveness of the software.</p>
+<h3>Share feedback with the team</h3>
+<p>Share gathered feedback with the entire team, ensuring that everyone is aware of the insights and can adjust their work accordingly.</p>
+<h3>Use feedback to iterate on product design</h3>
+<p>Use feedback from users and stakeholders to adjust product design, feature set, and overall user experience. This ensures that the product continues to evolve and adapt based on real-world needs and expectations.</p>
+
+
+
+<h2>Core Principle 3: Iterate Based on Feedback</h2>
+
+<p>Continuous feedback loops are most effective when teams actively iterate on their products and processes based on the feedback they receive. To do this, teams should:</p>
+<h3>Implement an iterative development process</h3>
+<p>Adopt an iterative development process, such as Scrum or Kanban, that allows for frequent feedback and adjustments to be made throughout the development cycle.</p>
+<h3>Embrace a culture of continuous improvement</h3>
+<p>Foster a team culture that values continuous improvement and is open to making changes based on feedback.</p>
+<h3>Address issues and improvements promptly</h3>
+<p>When feedback identifies an issue or area of improvement, take swift action to address it. This could involve fixing bugs, refining features, or adjusting processes to better meet the needs of users and stakeholders.</p>
+
+
+
+<h2>Conclusion</h2>
+
+<p>By implementing continuous feedback loops, software development teams can stay focused on delivering value to customers, identify and address issues early, and adapt more efficiently to changing requirements.</p>
+<p>Integrating the principles of gathering feedback, using feedback to inform decisions, and iterating based on feedback into the development process can lead to higher quality software, increased customer satisfaction, and a shorter time to market.</p>
+		</div>
+		<webui-drawer slot="left" class="nav elevation-20" docked="true" data-state="slot|docked" data-moveable data-dockable>
+			<webui-flex justify="center" slot="header">
+				<webui-stoic-dreams-logo title="Software Development Standards Website Logo" text="Soft Dev" text2="Standards"></webui-stoic-dreams-logo>
+			</webui-flex>
+			<webui-nav routes="/nav.json" data-subscribe="app-nav-routes:setNavRoutes"></webui-nav>
+		</webui-drawer>
+		<webui-drawer slot="right" class="shared elevation-20" data-stopclick data-moveable data-state="slot">
+		</webui-drawer>
+		<header slot="header">
+			<button aria-label="open navigation menu" data-toggleclass=".nav|open" class="elevation-10 pa-1 mx-1">
+				<webui-icon icon="hamburger"></webui-icon>
+			</button>
+			<h1 data-subscribe="page-title:innerHTML">Continuous Feedback Loops: Tenet 4 of Continuous Agile Software Engineering</h1>
+			<h2 data-subscribe="page-subtitle:innerHTML"></h2>
+			<webui-flex grow></webui-flex>
+			<webui-feedback title="Provide us your feedback" data-post="https://api.myfi.ws/feedback/new" data-json-name="message">
+				<p>You can also come <a href="https://discord.gg/5X4YSDFdHD">chat with us on the Stoic Dreams discord server.</a></p>
+			</webui-feedback>
+			<webui-alerts title="View your notifications" data-title="My Alerts" data-toggleclass=".shared|open"></webui-alerts>
+			<webui-myfi-info sign-in-label="Sign In">
+				<template slot="panel-content">
+					<webui-alert show variant="info">Example Account Panel</webui-alert>
+				</template>
+			</webui-myfi-info>
+		</header>
+		<noscript>Javascript is required to view this site</noscript>
+		<webui-page-footer copyright="2021" company="Stoic Dreams">
+			<webui-next-page theme="tertiary" data-subscribe="page-next-page"></webui-next-page>
+			<webui-flex class="my-3" justify="center" wrap>
+				<webui-link href="/about" icon="circle_exclamation|backing|bordered">About Software Development Standards</webui-link>
+				<webui-link href="/contact" icon="messages|fill|shade:tri">Contact Stoic Dreams</webui-link>
+				<webui-link href="/privacy" icon="shield_exclamation|backing|bordered">Privacy</webui-link>
+				<webui-link href="/terms" icon="handshake|fill|shade:tri">Terms & Conditions</webui-link>
+			</webui-flex>
+			<webui-stoic-social-links class="mb-2"></webui-stoic-social-links>
+		</webui-page-footer>
+	</webui-app>
+</body>
+
+</html>

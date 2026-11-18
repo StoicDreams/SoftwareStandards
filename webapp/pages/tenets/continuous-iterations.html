@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+	<!-- Google tag (gtag.js) -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-WYD1GW6NWL"></script>
+	<script>
+		if (location.hostname !== 'localhost') {
+			window.dataLayer = window.dataLayer || [];
+			function gtag() { dataLayer.push(arguments); }
+			gtag('js', new Date());
+			gtag('config', 'G-WYD1GW6NWL');
+		}
+	</script>
+	<title>Continuous Iterations: Tenet 10 of Continuous Agile Software Engineering</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="robots" content="index, follow">
+	<base href="/" />
+	<script type="text/javascript">
+		navigator.serviceWorker.register('service-worker.min.js');
+	</script>
+
+	<link rel="dns-prefetch" href="https://cdn.myfi.ws" />
+	<link rel="dns-prefetch" href="https://api.myfi.ws" />
+	<link rel="preconnect" href="https://cdn.myfi.ws">
+	<link rel="preconnect" href="https://api.myfi.ws">
+
+	<link href="Logo.svg?v=a7ce4cdaf0" rel="icon" type="image/svg+xml" sizes="any" />
+	<link rel="manifest" href="app.webmanifest?v=0004832c1f">
+
+	<script>
+		// Web UI loads from the local MyFiCDN server (MyFiCDN/PowerShell/RunLocal.ps1) when the site runs on localhost,
+		// so framework changes show before they are published, and from cdn.myfi.ws everywhere else.
+		window.webuiCdn = /^(localhost|127\.0\.0\.1|\[::1\])$/.test(location.hostname) ? 'http://localhost:3180/' : 'https://cdn.myfi.ws/';
+		document.write('<link href="' + webuiCdn + 'css/webui.min.css" rel="stylesheet" />');
+	</script>
+	<link href="css/app.min.css?v=27a41e2b3b" rel="stylesheet" />
+	<script>document.write('<script src="' + webuiCdn + 'webui/loader.min.js"></' + 'script>');</script>
+
+	<!-- Prerendered pages from webapp_post_build prerender. Release builds copy them to the site root. -->
+
+	<!--Web Worker-->
+	<script type="module" src="main.js?v=cea15cbf4f"></script>
+	<!--End Web Worker-->
+
+	<meta name="theme-color" content="#1240da" />
+
+	<meta name="author" content="Erik Gassler">
+	<meta name="description" content="Tenet 10 of CASE: keep improving ideas, products, and processes through small iterations and regular retrospectives.">
+
+	<meta property="og:image" content="https://www.softwarestandards.dev/Logo.svg">
+	<meta property="og:title" content="Continuous Iterations: Tenet 10 of Continuous Agile Software Engineering">
+	<meta property="og:url" content="https://www.softwarestandards.dev/tenets/continuous-iterations">
+	<meta property="og:description" content="Tenet 10 of CASE: keep improving ideas, products, and processes through small iterations and regular retrospectives.">
+
+	<meta name="twitter:title" content="Continuous Iterations: Tenet 10 of Continuous Agile Software Engineering">
+	<meta name="twitter:url" content="https://www.softwarestandards.dev/tenets/continuous-iterations">
+	<meta name="twitter:site" content="@stoicdreamsllc">
+	<meta name="twitter:description" content="Tenet 10 of CASE: keep improving ideas, products, and processes through small iterations and regular retrospectives.">
+	<meta name="twitter:image" content="https://www.softwarestandards.dev/Logo.svg">
+	<link rel="canonical" href="https://www.softwarestandards.dev/tenets/continuous-iterations" />
+	<link rel="modulepreload" href="https://cdn.myfi.ws/js/mdparse.min.js" crossorigin="anonymous" />
+	<link rel="preload" as="script" href="https://cdn.myfi.ws/webui/alerts.min.js" crossorigin="anonymous" />
+	<link rel="preload" as="script" href="https://cdn.myfi.ws/webui/app.min.js" crossorigin="anonymous" />
+	<link rel="preload" as="script" href="https://cdn.myfi.ws/webui/app-config.min.js" crossorigin="anonymous" />
+	<link rel="preload" as="script" href="https://cdn.myfi.ws/webui/data.min.js" crossorigin="anonymous" />
+	<link rel="preload" as="script" href="https://cdn.myfi.ws/webui/drawer.min.js" crossorigin="anonymous" />
+	<link rel="preload" as="script" href="https://cdn.myfi.ws/webui/feedback.min.js" crossorigin="anonymous" />
+	<link rel="preload" as="script" href="https://cdn.myfi.ws/webui/flex.min.js" crossorigin="anonymous" />
+	<link rel="preload" as="script" href="https://cdn.myfi.ws/webui/icon.min.js" crossorigin="anonymous" />
+	<link rel="preload" as="script" href="https://cdn.myfi.ws/webui/link.min.js" crossorigin="anonymous" />
+	<link rel="preload" as="script" href="https://cdn.myfi.ws/webui/myfi-info.min.js" crossorigin="anonymous" />
+	<link rel="preload" as="script" href="https://cdn.myfi.ws/webui/nav.min.js" crossorigin="anonymous" />
+	<link rel="preload" as="script" href="https://cdn.myfi.ws/webui/next-page.min.js" crossorigin="anonymous" />
+	<link rel="preload" as="script" href="https://cdn.myfi.ws/webui/page-footer.min.js" crossorigin="anonymous" />
+	<link rel="preload" as="script" href="https://cdn.myfi.ws/webui/paper.min.js" crossorigin="anonymous" />
+	<link rel="preload" as="script" href="https://cdn.myfi.ws/webui/side-by-side.min.js" crossorigin="anonymous" />
+	<link rel="preload" as="script" href="https://cdn.myfi.ws/webui/stoic-dreams-logo.min.js" crossorigin="anonymous" />
+	<link rel="preload" as="script" href="https://cdn.myfi.ws/webui/stoic-social-links.min.js" crossorigin="anonymous" />
+	<meta name="webui-prerender" content="970a54560d">
+</head>
+
+<body>
+	<webui-app-config src="appConfig.json"></webui-app-config>
+	<webui-app data-removeclass=".nav|open;.shared|open">
+		<div data-prerendered>
+<h2>Introduction</h2>
+
+<p>Continuous Iterations mean that teams should continuously iterate on their ideas, concepts, practices, products, and processes to improve their quality and efficiency.</p>
+<p>Continuous iterations are critical to ensuring that teams are always improving their products and processes, and that they are continuously adapting to changing requirements and market needs. By emphasizing continuous improvement, conducting regular retrospectives, and adapting quickly to changing requirements and market needs, teams can create a flexible and adaptive development process that produces high-quality products.</p>
+
+
+
+<h2>Core Principle 1: Emphasize Continuous Improvement</h2>
+
+<p>Continuous improvement is a key aspect of any successful software development process. It involves regularly reviewing and analyzing all aspects of the process, identifying areas that need improvement, and implementing changes to address those areas. This helps to ensure that the development process is always optimized for efficiency, productivity, and quality.</p>
+<p>To emphasize continuous improvement, software development teams should establish a culture that values open communication and feedback. This means encouraging team members to share their ideas and suggestions and providing opportunities for them to participate in the improvement process.</p>
+<p>Another important aspect of continuous improvement is measuring and tracking key performance indicators (KPIs). By monitoring metrics such as lead time, cycle time, and defect rates, teams can identify trends and patterns that may indicate areas for improvement. They can then use this information to make data-driven decisions about how to optimize their processes and improve their overall performance.</p>
+<p>Finally, it's important to remember that continuous improvement is an ongoing process. There is always room for improvement, and teams should be prepared to make changes and adjustments as needed to ensure that they are always delivering high-quality software in the most efficient and effective way possible. By emphasizing continuous improvement, software development teams can stay ahead of the curve, continuously refining their processes and delivering better software to their users.</p>
+
+
+
+<h2>Core Principle 2: Conduct Regular Retrospectives</h2>
+
+<p>Conducting regular retrospectives is a critical aspect of emphasizing continuous improvement in software development. Retrospectives are meetings that can occur at regular intervals, or at specific milestones such as the end of an iteration or project, where team members come together to reflect on what worked well and what didn't. The goal is to identify areas for improvement and make changes that will lead to more successful outcomes in the future.</p>
+<p>Developers should also get in the habit of taking ten to twenty minutes per day to have a self-retrospective. Evaluate the work they just completed with a more critical mindset. Was this the best they could do? What could they have done differently and what affect would that have had?</p>
+<p>During a team retrospective, team members should be encouraged to speak openly and honestly about their experiences. This might include discussing specific challenges they faced, areas where they felt the team excelled, and potential opportunities for growth. The team should work together to identify concrete actions that can be taken to address any issues that arise.</p>
+<p>Retrospectives can take many forms, but they should always be focused on actionable steps for improving the development process. Some teams may choose to use specific frameworks or techniques, such as the "Five Whys" or "SWOT Analysis," to guide their discussions. Others may prefer a more free-form approach that allows team members to share their thoughts and ideas in an open forum.</p>
+<p>Regardless of the specific format, the key is to create a safe and collaborative environment where everyone feels comfortable sharing their thoughts and ideas. By regularly conducting retrospectives, teams can build a culture of continuous improvement, where everyone is committed to finding ways to work more effectively and efficiently.</p>
+
+
+
+<h2>Core Principle 3: Adapt Quickly</h2>
+
+<p>In the rapidly changing landscape of software development, it's essential to be able to adapt quickly to new technologies, market trends, and user needs. This means that the ability to pivot, iterate, and make changes to your development process is critical.</p>
+<p>To effectively adapt quickly, you need to have a flexible mindset and a willingness to experiment and take risks. This requires a culture of innovation and continuous learning, where mistakes are seen as opportunities to learn and grow.</p>
+<p>One way to adapt quickly is to incorporate feedback loops throughout the development process. This means collecting feedback from users, stakeholders, and team members at every stage of the process and using that feedback to make improvements and iterate on your product.</p>
+<p>Another key to adapting quickly is to have a modular architecture that allows you to make changes and updates to specific components of your application without affecting the entire system. This means using microservices, APIs, and other modern architectural patterns to create a flexible, scalable system that can evolve with your needs.</p>
+<p>Ultimately, the ability to adapt quickly is a crucial principle of modern software development. By fostering a culture of innovation, incorporating feedback loops, and building a modular architecture, you can ensure that your development process is agile, responsive, and able to meet the ever-changing needs of your users and market.</p>
+
+
+
+<h2>Conclusion</h2>
+
+<p>Continuous Iterations emphasizes the importance of continuously refining and improving the software development process. By prioritizing continuous improvement, conducting regular retrospectives, and adapting quickly to changing requirements and market needs, teams can establish a culture of continuous learning and refinement that results in higher quality products and a more efficient development process.</p>
+<p>By following the principles of Continuous Iterations, teams can reduce the risk of developing products that do not meet customer needs or fail in the market, improve productivity, and foster a culture of innovation and continuous improvement. By continuously iterating on their products and processes, teams can achieve greater success and better outcomes in the long run.</p>
+		</div>
+		<webui-drawer slot="left" class="nav elevation-20" docked="true" data-state="slot|docked" data-moveable data-dockable>
+			<webui-flex justify="center" slot="header">
+				<webui-stoic-dreams-logo title="Software Development Standards Website Logo" text="Soft Dev" text2="Standards"></webui-stoic-dreams-logo>
+			</webui-flex>
+			<webui-nav routes="/nav.json" data-subscribe="app-nav-routes:setNavRoutes"></webui-nav>
+		</webui-drawer>
+		<webui-drawer slot="right" class="shared elevation-20" data-stopclick data-moveable data-state="slot">
+		</webui-drawer>
+		<header slot="header">
+			<button aria-label="open navigation menu" data-toggleclass=".nav|open" class="elevation-10 pa-1 mx-1">
+				<webui-icon icon="hamburger"></webui-icon>
+			</button>
+			<h1 data-subscribe="page-title:innerHTML">Continuous Iterations: Tenet 10 of Continuous Agile Software Engineering</h1>
+			<h2 data-subscribe="page-subtitle:innerHTML"></h2>
+			<webui-flex grow></webui-flex>
+			<webui-feedback title="Provide us your feedback" data-post="https://api.myfi.ws/feedback/new" data-json-name="message">
+				<p>You can also come <a href="https://discord.gg/5X4YSDFdHD">chat with us on the Stoic Dreams discord server.</a></p>
+			</webui-feedback>
+			<webui-alerts title="View your notifications" data-title="My Alerts" data-toggleclass=".shared|open"></webui-alerts>
+			<webui-myfi-info sign-in-label="Sign In">
+				<template slot="panel-content">
+					<webui-alert show variant="info">Example Account Panel</webui-alert>
+				</template>
+			</webui-myfi-info>
+		</header>
+		<noscript>Javascript is required to view this site</noscript>
+		<webui-page-footer copyright="2021" company="Stoic Dreams">
+			<webui-next-page theme="tertiary" data-subscribe="page-next-page"></webui-next-page>
+			<webui-flex class="my-3" justify="center" wrap>
+				<webui-link href="/about" icon="circle_exclamation|backing|bordered">About Software Development Standards</webui-link>
+				<webui-link href="/contact" icon="messages|fill|shade:tri">Contact Stoic Dreams</webui-link>
+				<webui-link href="/privacy" icon="shield_exclamation|backing|bordered">Privacy</webui-link>
+				<webui-link href="/terms" icon="handshake|fill|shade:tri">Terms & Conditions</webui-link>
+			</webui-flex>
+			<webui-stoic-social-links class="mb-2"></webui-stoic-social-links>
+		</webui-page-footer>
+	</webui-app>
+</body>
+
+</html>

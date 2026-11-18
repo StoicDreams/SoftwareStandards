@@ -1,4 +1,4 @@
-<webui-data data-page-title="Statements of Work - Identify the Problem" data-page-subtitle=""></webui-data>
+<webui-data data-page-title="Statements of Work - Identify the Problem" data-page-subtitle="" data-page-description="A Statement of Work template of questions to answer and document at the start of a project, kept up to date as requirements change."></webui-data>
 <webui-data data-page-next-page='{"name":"Standards","href":"/info/standards"}'></webui-data>
 
 ## Purposeful Pre-Planning

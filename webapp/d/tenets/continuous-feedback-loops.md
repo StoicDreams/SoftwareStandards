@@ -1,4 +1,4 @@
-<webui-data data-page-title="Continuous Feedback Loops: Tenet 4 of Continuous Agile Software Engineering" data-page-subtitle=""></webui-data>
+<webui-data data-page-title="Continuous Feedback Loops: Tenet 4 of Continuous Agile Software Engineering" data-page-subtitle="" data-page-description="Tenet 4 of CASE: gather, share, and act on feedback throughout development to catch issues early and keep delivering customer value."></webui-data>
 <webui-data data-page-next-page='{"name":"Continuous Automation","href":"/tenets/continuous-automation"}'></webui-data>
 
 <webui-side-by-side>

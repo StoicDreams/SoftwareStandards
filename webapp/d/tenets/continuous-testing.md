@@ -1,4 +1,4 @@
-<webui-data data-page-title="Continuous Testing: Tenet 9 of Continuous Agile Software Engineering" data-page-subtitle=""></webui-data>
+<webui-data data-page-title="Continuous Testing: Tenet 9 of Continuous Agile Software Engineering" data-page-subtitle="" data-page-description="Tenet 9 of CASE: test from requirements to release using test-driven development and automation to catch defects early."></webui-data>
 <webui-data data-page-next-page='{"name":"Continuous Iterations","href":"/tenets/continuous-iterations"}'></webui-data>
 
 <webui-side-by-side>

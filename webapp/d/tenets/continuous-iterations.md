@@ -1,4 +1,4 @@
-<webui-data data-page-title="Continuous Iterations: Tenet 10 of Continuous Agile Software Engineering" data-page-subtitle=""></webui-data>
+<webui-data data-page-title="Continuous Iterations: Tenet 10 of Continuous Agile Software Engineering" data-page-subtitle="" data-page-description="Tenet 10 of CASE: keep improving ideas, products, and processes through small iterations and regular retrospectives."></webui-data>
 <webui-data data-page-next-page='{"name":"Continuous Integrations","href":"/tenets/continuous-integrations"}'></webui-data>
 
 <webui-side-by-side>

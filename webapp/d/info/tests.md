@@ -1,4 +1,4 @@
-<webui-data data-page-title="Test Strategies for Continuous Development" data-page-subtitle=""></webui-data>
+<webui-data data-page-title="Test Strategies for Continuous Development" data-page-subtitle="" data-page-description="Test strategies for continuous development: test-driven development, automated tests, and the habits that avoid the technical debt trap."></webui-data>
 <webui-data data-page-next-page='{"name":"Interviews","href":"/info/interviews"}'></webui-data>
 
 <webui-quote theme="info">

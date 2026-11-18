@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+	<!-- Google tag (gtag.js) -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-WYD1GW6NWL"></script>
+	<script>
+		if (location.hostname !== 'localhost') {
+			window.dataLayer = window.dataLayer || [];
+			function gtag() { dataLayer.push(arguments); }
+			gtag('js', new Date());
+			gtag('config', 'G-WYD1GW6NWL');
+		}
+	</script>
+	<title>Continuous Planning: Tenet 6 of Continuous Agile Software Engineering</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="robots" content="index, follow">
+	<base href="/" />
+	<script type="text/javascript">
+		navigator.serviceWorker.register('service-worker.min.js');
+	</script>
+
+	<link rel="dns-prefetch" href="https://cdn.myfi.ws" />
+	<link rel="dns-prefetch" href="https://api.myfi.ws" />
+	<link rel="preconnect" href="https://cdn.myfi.ws">
+	<link rel="preconnect" href="https://api.myfi.ws">
+
+	<link href="Logo.svg?v=a7ce4cdaf0" rel="icon" type="image/svg+xml" sizes="any" />
+	<link rel="manifest" href="app.webmanifest?v=0004832c1f">
+
+	<script>
+		// Web UI loads from the local MyFiCDN server (MyFiCDN/PowerShell/RunLocal.ps1) when the site runs on localhost,
+		// so framework changes show before they are published, and from cdn.myfi.ws everywhere else.
+		window.webuiCdn = /^(localhost|127\.0\.0\.1|\[::1\])$/.test(location.hostname) ? 'http://localhost:3180/' : 'https://cdn.myfi.ws/';
+		document.write('<link href="' + webuiCdn + 'css/webui.min.css" rel="stylesheet" />');
+	</script>
+	<link href="css/app.min.css?v=27a41e2b3b" rel="stylesheet" />
+	<script>document.write('<script src="' + webuiCdn + 'webui/loader.min.js"></' + 'script>');</script>
+
+	<!-- Prerendered pages from webapp_post_build prerender. Release builds copy them to the site root. -->
+
+	<!--Web Worker-->
+	<script type="module" src="main.js?v=cea15cbf4f"></script>
+	<!--End Web Worker-->
+
+	<meta name="theme-color" content="#1240da" />
+
+	<meta name="author" content="Erik Gassler">
+	<meta name="description" content="Tenet 6 of CASE: plan only what is about to be built, then adjust the plan as feedback and requirements change.">
+
+	<meta property="og:image" content="https://www.softwarestandards.dev/Logo.svg">
+	<meta property="og:title" content="Continuous Planning: Tenet 6 of Continuous Agile Software Engineering">
+	<meta property="og:url" content="https://www.softwarestandards.dev/tenets/continuous-planning">
+	<meta property="og:description" content="Tenet 6 of CASE: plan only what is about to be built, then adjust the plan as feedback and requirements change.">
+
+	<meta name="twitter:title" content="Continuous Planning: Tenet 6 of Continuous Agile Software Engineering">
+	<meta name="twitter:url" content="https://www.softwarestandards.dev/tenets/continuous-planning">
+	<meta name="twitter:site" content="@stoicdreamsllc">
+	<meta name="twitter:description" content="Tenet 6 of CASE: plan only what is about to be built, then adjust the plan as feedback and requirements change.">
+	<meta name="twitter:image" content="https://www.softwarestandards.dev/Logo.svg">
+	<link rel="canonical" href="https://www.softwarestandards.dev/tenets/continuous-planning" />
+	<link rel="modulepreload" href="https://cdn.myfi.ws/js/mdparse.min.js" crossorigin="anonymous" />
+	<link rel="preload" as="script" href="https://cdn.myfi.ws/webui/alerts.min.js" crossorigin="anonymous" />
+	<link rel="preload" as="script" href="https://cdn.myfi.ws/webui/app.min.js" crossorigin="anonymous" />
+	<link rel="preload" as="script" href="https://cdn.myfi.ws/webui/app-config.min.js" crossorigin="anonymous" />
+	<link rel="preload" as="script" href="https://cdn.myfi.ws/webui/data.min.js" crossorigin="anonymous" />
+	<link rel="preload" as="script" href="https://cdn.myfi.ws/webui/drawer.min.js" crossorigin="anonymous" />
+	<link rel="preload" as="script" href="https://cdn.myfi.ws/webui/feedback.min.js" crossorigin="anonymous" />
+	<link rel="preload" as="script" href="https://cdn.myfi.ws/webui/flex.min.js" crossorigin="anonymous" />
+	<link rel="preload" as="script" href="https://cdn.myfi.ws/webui/icon.min.js" crossorigin="anonymous" />
+	<link rel="preload" as="script" href="https://cdn.myfi.ws/webui/link.min.js" crossorigin="anonymous" />
+	<link rel="preload" as="script" href="https://cdn.myfi.ws/webui/myfi-info.min.js" crossorigin="anonymous" />
+	<link rel="preload" as="script" href="https://cdn.myfi.ws/webui/nav.min.js" crossorigin="anonymous" />
+	<link rel="preload" as="script" href="https://cdn.myfi.ws/webui/next-page.min.js" crossorigin="anonymous" />
+	<link rel="preload" as="script" href="https://cdn.myfi.ws/webui/page-footer.min.js" crossorigin="anonymous" />
+	<link rel="preload" as="script" href="https://cdn.myfi.ws/webui/paper.min.js" crossorigin="anonymous" />
+	<link rel="preload" as="script" href="https://cdn.myfi.ws/webui/side-by-side.min.js" crossorigin="anonymous" />
+	<link rel="preload" as="script" href="https://cdn.myfi.ws/webui/stoic-dreams-logo.min.js" crossorigin="anonymous" />
+	<link rel="preload" as="script" href="https://cdn.myfi.ws/webui/stoic-social-links.min.js" crossorigin="anonymous" />
+	<meta name="webui-prerender" content="6d88d50bee">
+</head>
+
+<body>
+	<webui-app-config src="appConfig.json"></webui-app-config>
+	<webui-app data-removeclass=".nav|open;.shared|open">
+		<div data-prerendered>
+<h2>Introduction</h2>
+
+<p>Continuous planning means that teams should continuously plan and adjust the development process based on feedback and changing requirements. This also means that teams should spend minimal time planning development or features that are not being immediately worked on.</p>
+<p>Continuous planning is critical to ensuring that teams stay aligned with customer needs and market trends and make timely adjustments to the development process as needed. By continuously planning and adjusting the development process, teams can reduce the risk of developing products that do not meet customer needs or fail in the market.</p>
+
+
+
+<h2>Core Principle 1: Emphasize Continuous Planning</h2>
+
+<p>Emphasizing continuous planning is a crucial principle in the continuous delivery process. It involves prioritizing planning throughout the development process, from initial requirements gathering to release planning, and continuously refining plans based on feedback, discoveries during development, and changing requirements.</p>
+<p>Effective planning ensures that teams are aligned with customer needs and market trends, and that they can make timely adjustments to the development process as needed. This helps to reduce the risk of developing products that do not meet customer needs or fail in the market.</p>
+<p>To apply this principle, software engineers and teams should focus on the following three core practices:</p>
+<h3>Prioritizing planning throughout the development process</h3>
+<p>Planning should be a continuous process that starts with gathering requirements and continues throughout the development cycle. Teams should prioritize planning and make sure it is an integral part of their software development process.</p>
+<h3>Using data-driven approaches</h3>
+<p>Teams should use data-driven approaches, such as user feedback and market trends, to inform planning decisions and adjust the development process. By relying on data, teams can make informed decisions that are more likely to result in successful products.</p>
+<h3>Continuously refining plans</h3>
+<p>Teams should continuously refine their plans based on feedback, discoveries during development, and changing requirements. This ensures that the team is always aligned with the needs of customers and the market, and that they can make timely adjustments to the development process.</p>
+
+
+
+<h2>Core Principle 2: Use Data-Driven Approaches</h2>
+
+<p>Use data-driven approaches to inform planning decisions and adjust the development process. Data-driven approaches involve using various sources of data to make decisions and track progress during the development process. This approach allows teams to make informed decisions based on empirical evidence, rather than relying solely on intuition or guesswork.</p>
+<h3>Why is this principle important?</h3>
+<p>Using data-driven approaches enables teams to have a clear understanding of their product's current state and progress towards meeting their goals. It also allows teams to identify trends and patterns that would otherwise be difficult to see, which can inform future planning and decision-making. By using data to inform planning decisions, teams can ensure that their efforts are focused on the most impactful tasks, leading to a more efficient and effective development process.</p>
+<p>Let’s see how this principle can be applied in software development.</p>
+<h3>Track Metrics</h3>
+<p>Teams can track various metrics, such as user engagement, feature usage, and performance metrics, to measure the success of their product and inform planning decisions. For example, a team may track user engagement with a specific feature to determine its popularity and prioritize its improvement in future iterations.</p>
+<h3>Analyze User Feedback</h3>
+<p>Teams can collect user feedback, such as survey responses or customer support tickets, and analyze it to identify trends or common issues. This information can be used to inform planning decisions and adjust the development process accordingly.</p>
+<h3>Monitor Market Trends</h3>
+<p>Teams can monitor market trends, such as emerging technologies or changes in user behavior, to inform planning decisions and adjust the development process to stay ahead of the competition.</p>
+<p>By applying data-driven approaches, teams can make informed planning decisions that lead to a more efficient and effective development process, ultimately resulting in higher-quality products.</p>
+
+
+
+<h2>Core Principle 3: Continuously Refine Plans</h2>
+
+<p>To help maximize our productivity and deliver the best value when developing software, it is imperative that we are regularly reviewing and adjusting plans throughout the software development process. This principle acknowledges that plans are not static, and that changes in requirements, feedback, and other factors can often necessitate modifications to the development process.</p>
+<p>Continuous refinement of plans helps to ensure that teams remain aligned with customer needs, market trends, and the changing business landscape. By adjusting the development process as needed, teams can reduce the risk of developing products that do not meet customer needs or fail in the market.</p>
+<p>To apply this principle, software engineers and teams should focus on the following practices:</p>
+<h3>Regularly review plans</h3>
+<p>Teams should regularly review plans throughout the development process to identify areas that need adjustment. This could involve conducting regular retrospectives or holding planning sessions at key milestones in the project.</p>
+<h3>Solicit feedback</h3>
+<p>Teams should solicit feedback from all stakeholders, including customers, product owners, developers, and testers, to identify areas that need improvement.</p>
+<h3>Prioritize changes</h3>
+<p>Teams should prioritize changes based on their impact on the development process and the potential value they will add to the final product.</p>
+<p>By following these principles, teams can continuously refine their plans throughout the software development process, ensuring that they remain aligned with customer needs and market trends, and that they are adapting to changing requirements and business conditions.</p>
+
+
+
+<h2>Conclusion</h2>
+
+<p>Continuous planning is a critical component of the CASE approach to software development. By continuously planning and adjusting the development process based on feedback and changing requirements, teams can stay aligned with customer needs and market trends and make timely adjustments to the development process as needed.</p>
+<p>To apply this tenet, software engineers and teams should prioritize planning throughout the development process, use data-driven approaches to inform planning decisions, and continuously refine plans based on feedback and changing requirements.</p>
+<p>By following these principles, teams can establish continuous planning that helps to improve the quality of their products and the efficiency of their development process. By emphasizing continuous planning, teams can reduce the risk of developing products that do not meet customer needs or fail in the market, leading to higher customer satisfaction and better team morale.</p>
+		</div>
+		<webui-drawer slot="left" class="nav elevation-20" docked="true" data-state="slot|docked" data-moveable data-dockable>
+			<webui-flex justify="center" slot="header">
+				<webui-stoic-dreams-logo title="Software Development Standards Website Logo" text="Soft Dev" text2="Standards"></webui-stoic-dreams-logo>
+			</webui-flex>
+			<webui-nav routes="/nav.json" data-subscribe="app-nav-routes:setNavRoutes"></webui-nav>
+		</webui-drawer>
+		<webui-drawer slot="right" class="shared elevation-20" data-stopclick data-moveable data-state="slot">
+		</webui-drawer>
+		<header slot="header">
+			<button aria-label="open navigation menu" data-toggleclass=".nav|open" class="elevation-10 pa-1 mx-1">
+				<webui-icon icon="hamburger"></webui-icon>
+			</button>
+			<h1 data-subscribe="page-title:innerHTML">Continuous Planning: Tenet 6 of Continuous Agile Software Engineering</h1>
+			<h2 data-subscribe="page-subtitle:innerHTML"></h2>
+			<webui-flex grow></webui-flex>
+			<webui-feedback title="Provide us your feedback" data-post="https://api.myfi.ws/feedback/new" data-json-name="message">
+				<p>You can also come <a href="https://discord.gg/5X4YSDFdHD">chat with us on the Stoic Dreams discord server.</a></p>
+			</webui-feedback>
+			<webui-alerts title="View your notifications" data-title="My Alerts" data-toggleclass=".shared|open"></webui-alerts>
+			<webui-myfi-info sign-in-label="Sign In">
+				<template slot="panel-content">
+					<webui-alert show variant="info">Example Account Panel</webui-alert>
+				</template>
+			</webui-myfi-info>
+		</header>
+		<noscript>Javascript is required to view this site</noscript>
+		<webui-page-footer copyright="2021" company="Stoic Dreams">
+			<webui-next-page theme="tertiary" data-subscribe="page-next-page"></webui-next-page>
+			<webui-flex class="my-3" justify="center" wrap>
+				<webui-link href="/about" icon="circle_exclamation|backing|bordered">About Software Development Standards</webui-link>
+				<webui-link href="/contact" icon="messages|fill|shade:tri">Contact Stoic Dreams</webui-link>
+				<webui-link href="/privacy" icon="shield_exclamation|backing|bordered">Privacy</webui-link>
+				<webui-link href="/terms" icon="handshake|fill|shade:tri">Terms & Conditions</webui-link>
+			</webui-flex>
+			<webui-stoic-social-links class="mb-2"></webui-stoic-social-links>
+		</webui-page-footer>
+	</webui-app>
+</body>
+
+</html>

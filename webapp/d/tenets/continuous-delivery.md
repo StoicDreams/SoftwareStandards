@@ -1,4 +1,4 @@
-<webui-data data-page-title="Continuous Delivery: Tenet 12 of Continuous Agile Software Engineering" data-page-subtitle=""></webui-data>
+<webui-data data-page-title="Continuous Delivery: Tenet 12 of Continuous Agile Software Engineering" data-page-subtitle="" data-page-description="Tenet 12 of CASE: deploy tested changes to production as often as possible through fully automated delivery that is quick and safe."></webui-data>
 <webui-data data-page-next-page='{"name":"Holistic","href":"/info/holistic"}'></webui-data>
 
 <webui-side-by-side>

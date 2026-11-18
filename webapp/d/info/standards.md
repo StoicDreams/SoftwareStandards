@@ -1,4 +1,4 @@
-<webui-data data-page-title="Team and Developer Standards" data-page-subtitle=""></webui-data>
+<webui-data data-page-title="Team and Developer Standards" data-page-subtitle="" data-page-description="How to set team and developer standards that are objectively useful, question the ones nobody can explain, and change them when something better appears."></webui-data>
 <webui-data data-page-next-page='{"name":"Tests","href":"/info/tests"}'></webui-data>
 
 <webui-sideimage src="https://cdn.myfi.ws/v/Vecteezy/business-concept-of-vector-illustration-little-people-links.svg">

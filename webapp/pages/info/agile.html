@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+	<!-- Google tag (gtag.js) -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-WYD1GW6NWL"></script>
+	<script>
+		if (location.hostname !== 'localhost') {
+			window.dataLayer = window.dataLayer || [];
+			function gtag() { dataLayer.push(arguments); }
+			gtag('js', new Date());
+			gtag('config', 'G-WYD1GW6NWL');
+		}
+	</script>
+	<title>What is Agile Development?</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="robots" content="index, follow">
+	<base href="/" />
+	<script type="text/javascript">
+		navigator.serviceWorker.register('service-worker.min.js');
+	</script>
+
+	<link rel="dns-prefetch" href="https://cdn.myfi.ws" />
+	<link rel="dns-prefetch" href="https://api.myfi.ws" />
+	<link rel="preconnect" href="https://cdn.myfi.ws">
+	<link rel="preconnect" href="https://api.myfi.ws">
+
+	<link href="Logo.svg?v=a7ce4cdaf0" rel="icon" type="image/svg+xml" sizes="any" />
+	<link rel="manifest" href="app.webmanifest?v=0004832c1f">
+
+	<script>
+		// Web UI loads from the local MyFiCDN server (MyFiCDN/PowerShell/RunLocal.ps1) when the site runs on localhost,
+		// so framework changes show before they are published, and from cdn.myfi.ws everywhere else.
+		window.webuiCdn = /^(localhost|127\.0\.0\.1|\[::1\])$/.test(location.hostname) ? 'http://localhost:3180/' : 'https://cdn.myfi.ws/';
+		document.write('<link href="' + webuiCdn + 'css/webui.min.css" rel="stylesheet" />');
+	</script>
+	<link href="css/app.min.css?v=27a41e2b3b" rel="stylesheet" />
+	<script>document.write('<script src="' + webuiCdn + 'webui/loader.min.js"></' + 'script>');</script>
+
+	<!-- Prerendered pages from webapp_post_build prerender. Release builds copy them to the site root. -->
+
+	<!--Web Worker-->
+	<script type="module" src="main.js?v=cea15cbf4f"></script>
+	<!--End Web Worker-->
+
+	<meta name="theme-color" content="#1240da" />
+
+	<meta name="author" content="Erik Gassler">
+	<meta name="description" content="What agile means to us: a mindset of small iterations and constant feedback, not Scrum rituals, and why it needs no heavy up-front planning.">
+
+	<meta property="og:image" content="https://www.softwarestandards.dev/Logo.svg">
+	<meta property="og:title" content="What is Agile Development?">
+	<meta property="og:url" content="https://www.softwarestandards.dev/info/agile">
+	<meta property="og:description" content="What agile means to us: a mindset of small iterations and constant feedback, not Scrum rituals, and why it needs no heavy up-front planning.">
+
+	<meta name="twitter:title" content="What is Agile Development?">
+	<meta name="twitter:url" content="https://www.softwarestandards.dev/info/agile">
+	<meta name="twitter:site" content="@stoicdreamsllc">
+	<meta name="twitter:description" content="What agile means to us: a mindset of small iterations and constant feedback, not Scrum rituals, and why it needs no heavy up-front planning.">
+	<meta name="twitter:image" content="https://www.softwarestandards.dev/Logo.svg">
+	<link rel="canonical" href="https://www.softwarestandards.dev/info/agile" />
+	<link rel="modulepreload" href="https://cdn.myfi.ws/js/mdparse.min.js" crossorigin="anonymous" />
+	<link rel="preload" as="script" href="https://cdn.myfi.ws/webui/alerts.min.js" crossorigin="anonymous" />
+	<link rel="preload" as="script" href="https://cdn.myfi.ws/webui/app.min.js" crossorigin="anonymous" />
+	<link rel="preload" as="script" href="https://cdn.myfi.ws/webui/app-config.min.js" crossorigin="anonymous" />
+	<link rel="preload" as="script" href="https://cdn.myfi.ws/webui/cards.min.js" crossorigin="anonymous" />
+	<link rel="preload" as="script" href="https://cdn.myfi.ws/webui/data.min.js" crossorigin="anonymous" />
+	<link rel="preload" as="script" href="https://cdn.myfi.ws/webui/drawer.min.js" crossorigin="anonymous" />
+	<link rel="preload" as="script" href="https://cdn.myfi.ws/webui/feedback.min.js" crossorigin="anonymous" />
+	<link rel="preload" as="script" href="https://cdn.myfi.ws/webui/flex.min.js" crossorigin="anonymous" />
+	<link rel="preload" as="script" href="https://cdn.myfi.ws/webui/icon.min.js" crossorigin="anonymous" />
+	<link rel="preload" as="script" href="https://cdn.myfi.ws/webui/link.min.js" crossorigin="anonymous" />
+	<link rel="preload" as="script" href="https://cdn.myfi.ws/webui/myfi-info.min.js" crossorigin="anonymous" />
+	<link rel="preload" as="script" href="https://cdn.myfi.ws/webui/nav.min.js" crossorigin="anonymous" />
+	<link rel="preload" as="script" href="https://cdn.myfi.ws/webui/next-page.min.js" crossorigin="anonymous" />
+	<link rel="preload" as="script" href="https://cdn.myfi.ws/webui/page-footer.min.js" crossorigin="anonymous" />
+	<link rel="preload" as="script" href="https://cdn.myfi.ws/webui/sideimage.min.js" crossorigin="anonymous" />
+	<link rel="preload" as="script" href="https://cdn.myfi.ws/webui/stoic-dreams-logo.min.js" crossorigin="anonymous" />
+	<link rel="preload" as="script" href="https://cdn.myfi.ws/webui/stoic-social-links.min.js" crossorigin="anonymous" />
+	<meta name="webui-prerender" content="a0dc741d20">
+</head>
+
+<body>
+	<webui-app-config src="appConfig.json"></webui-app-config>
+	<webui-app data-removeclass=".nav|open;.shared|open">
+		<div data-prerendered>
+<p>Agile is a term that gets thrown around and misused a lot, without much consistency in practice to what it means.</p>
+<p>If you take a look at the actual <a href="https://www.agilealliance.org/agile-essentials">Agile Alliance documentation</a>, you will find that the Agile framework is a mental structure on how to solve problems faced when engineering software.</p>
+<p>Like any standard, there is room for interpretation and adaptation. And while concepts like Scrum and Sprints may have sprouted by Agile teams, this does not mean that because you have Scrum meetings or develop in Sprints you are doing Agile development.</p>
+<p>For us, the Agile framework is nothing more than a mindset. It is being open to constantly evaluate and update how we develop software to assure we are developing as efficiently as possible while adhering to high-quality development standards.</p>
+<p>But we do believe the Agile Manifesto has room for improvement, and for this reason the agile part of Continuous Agile Software Engineering, as well as when we say agile in other contexts without the capital A, is not referring to Agile from the Agile Manifesto, but instead referring to the word agile.</p>
+<p>We believe in progressing development through small, iterative updates, with various feedback loops from users and insights to help guide future progression.</p>
+<p>We believe in adapting to various projects we work on, adapting to various size teams, and even adapting to the various types of people we work with.</p>
+<p>We believe that truly agile workflows do not require nor demand detailed pre-planning or documenting of any specific technical details, nor does it involve any feature-specific deadlines or estimating. Instead, planning and documentation are worked on continuously throughout development, evolving as the project and requirements evolve. And instead of delivering features we deliver iterations, with a focus only on the highest priorities.</p>
+<p>The only pre-planning and documentation we want before development is the Statement of Work, or SOW, defining the who, what, where, when, why, and how's of the project.</p>
+<p>These are high-level questions and answers that any user, developer, or executive should be expected to be able to understand when participating in any work in the project.</p>
+<p>In most cases, this SOW documentation should be created and managed by a project owner or manager, and needs to focus on business goals and user experiences. There absolutely should be no specifics within a SOW document that specifies any technologies, workflows, or any other technical details about the project.</p>
+<p>Technical details should be documented during development as part of the an agile workflow loop.</p>
+
+<h2>Agile Workflow Loop</h2>
+
+<p>Agile workflows should loop through specific stages of development, often several times in an average workday. A single feature may require several, even hundreds of loop cycles to implement, depending on the complexity of the feature.</p>
+<p>That loop is Research-Prototype-Evaluate-Integrate-Test-Deploy-Validate.</p>
+		</div>
+		<webui-drawer slot="left" class="nav elevation-20" docked="true" data-state="slot|docked" data-moveable data-dockable>
+			<webui-flex justify="center" slot="header">
+				<webui-stoic-dreams-logo title="Software Development Standards Website Logo" text="Soft Dev" text2="Standards"></webui-stoic-dreams-logo>
+			</webui-flex>
+			<webui-nav routes="/nav.json" data-subscribe="app-nav-routes:setNavRoutes"></webui-nav>
+		</webui-drawer>
+		<webui-drawer slot="right" class="shared elevation-20" data-stopclick data-moveable data-state="slot">
+		</webui-drawer>
+		<header slot="header">
+			<button aria-label="open navigation menu" data-toggleclass=".nav|open" class="elevation-10 pa-1 mx-1">
+				<webui-icon icon="hamburger"></webui-icon>
+			</button>
+			<h1 data-subscribe="page-title:innerHTML">What is Agile Development?</h1>
+			<h2 data-subscribe="page-subtitle:innerHTML"></h2>
+			<webui-flex grow></webui-flex>
+			<webui-feedback title="Provide us your feedback" data-post="https://api.myfi.ws/feedback/new" data-json-name="message">
+				<p>You can also come <a href="https://discord.gg/5X4YSDFdHD">chat with us on the Stoic Dreams discord server.</a></p>
+			</webui-feedback>
+			<webui-alerts title="View your notifications" data-title="My Alerts" data-toggleclass=".shared|open"></webui-alerts>
+			<webui-myfi-info sign-in-label="Sign In">
+				<template slot="panel-content">
+					<webui-alert show variant="info">Example Account Panel</webui-alert>
+				</template>
+			</webui-myfi-info>
+		</header>
+		<noscript>Javascript is required to view this site</noscript>
+		<webui-page-footer copyright="2021" company="Stoic Dreams">
+			<webui-next-page theme="tertiary" data-subscribe="page-next-page"></webui-next-page>
+			<webui-flex class="my-3" justify="center" wrap>
+				<webui-link href="/about" icon="circle_exclamation|backing|bordered">About Software Development Standards</webui-link>
+				<webui-link href="/contact" icon="messages|fill|shade:tri">Contact Stoic Dreams</webui-link>
+				<webui-link href="/privacy" icon="shield_exclamation|backing|bordered">Privacy</webui-link>
+				<webui-link href="/terms" icon="handshake|fill|shade:tri">Terms & Conditions</webui-link>
+			</webui-flex>
+			<webui-stoic-social-links class="mb-2"></webui-stoic-social-links>
+		</webui-page-footer>
+	</webui-app>
+</body>
+
+</html>

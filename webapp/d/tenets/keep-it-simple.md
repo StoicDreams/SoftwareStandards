@@ -1,4 +1,4 @@
-<webui-data data-page-title="Keep it Simple: Tenet 1 of Continuous Agile Software Engineering" data-page-subtitle=""></webui-data>
+<webui-data data-page-title="Keep it Simple: Tenet 1 of Continuous Agile Software Engineering" data-page-subtitle="" data-page-description="Tenet 1 of CASE: reduce complexity, eliminate waste, and prioritize value so software stays easy to understand and change."></webui-data>
 <webui-data data-page-next-page='{"name":"Code Ownership","href":"/tenets/code-ownership"}'></webui-data>
 
 <webui-side-by-side>

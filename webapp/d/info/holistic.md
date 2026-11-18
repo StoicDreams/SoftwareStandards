@@ -1,4 +1,4 @@
-<webui-data data-page-title="Holistic practices for Agile Development" data-page-subtitle=""></webui-data>
+<webui-data data-page-title="Holistic practices for Agile Development" data-page-subtitle="" data-page-description="Why picking pieces of Agile or Scrum fails, and how CASE tenets fit together so teams adopt the whole practice instead of cherry-picking."></webui-data>
 <webui-data data-page-next-page='{"name":"Agile","href":"/info/agile"}'></webui-data>
 
 <webui-sideimage reverse src="https://cdn.myfi.ws/v/Vecteezy/people-are-building-a-spaceship-rocket-cohesive-teamwork-in.svg">

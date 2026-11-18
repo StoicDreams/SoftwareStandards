@@ -1,4 +1,4 @@
-<webui-data data-page-title="Continuous Planning: Tenet 6 of Continuous Agile Software Engineering" data-page-subtitle=""></webui-data>
+<webui-data data-page-title="Continuous Planning: Tenet 6 of Continuous Agile Software Engineering" data-page-subtitle="" data-page-description="Tenet 6 of CASE: plan only what is about to be built, then adjust the plan as feedback and requirements change."></webui-data>
 <webui-data data-page-next-page='{"name":"Continuous Collaboration","href":"/tenets/continuous-collaboration"}'></webui-data>
 
 <webui-side-by-side>

@@ -1,4 +1,4 @@
-<webui-data data-page-title="What is Agile Development?" data-page-subtitle=""></webui-data>
+<webui-data data-page-title="What is Agile Development?" data-page-subtitle="" data-page-description="What agile means to us: a mindset of small iterations and constant feedback, not Scrum rituals, and why it needs no heavy up-front planning."></webui-data>
 <webui-data data-page-next-page='{"name":"Statement of Work","href":"/info/statement-of-work"}'></webui-data>
 
 <webui-sideimage reverse src="https://cdn.myfi.ws/v/Vecteezy/intellectual-capital-economic-growth-and-development-stock.svg">

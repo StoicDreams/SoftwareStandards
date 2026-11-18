@@ -1,4 +1,4 @@
-<webui-data data-page-title="Continuous Integrations: Tenet 11 of Continuous Agile Software Engineering" data-page-subtitle=""></webui-data>
+<webui-data data-page-title="Continuous Integrations: Tenet 11 of Continuous Agile Software Engineering" data-page-subtitle="" data-page-description="Tenet 11 of CASE: merge changes into a single main branch often and test every change so everyone works from the latest code."></webui-data>
 <webui-data data-page-next-page='{"name":"Continuous Delivery","href":"/tenets/continuous-delivery"}'></webui-data>
 
 <webui-side-by-side>

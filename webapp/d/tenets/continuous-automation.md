@@ -1,4 +1,4 @@
-<webui-data data-page-title="Continuous Automation: Tenet 5 of Continuous Agile Software Engineering" data-page-subtitle=""></webui-data>
+<webui-data data-page-title="Continuous Automation: Tenet 5 of Continuous Agile Software Engineering" data-page-subtitle="" data-page-description="Tenet 5 of CASE: automate testing, building, and deployment so teams save time, raise quality, and cut manual errors."></webui-data>
 <webui-data data-page-next-page='{"name":"Continuous Planning","href":"/tenets/continuous-planning"}'></webui-data>
 
 <webui-side-by-side>

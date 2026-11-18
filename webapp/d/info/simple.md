@@ -1,4 +1,4 @@
-<webui-data data-page-title="Simple Software Engineering" data-page-subtitle=""></webui-data>
+<webui-data data-page-title="Simple Software Engineering" data-page-subtitle="" data-page-description="How to keep software simple: break problems into small pieces, give each method and class one purpose, and avoid needless complexity."></webui-data>
 <webui-data data-page-next-page='{"name":"Home","href":"/"}'></webui-data>
 
 <webui-quote theme="info" cite="Erik Gassler">

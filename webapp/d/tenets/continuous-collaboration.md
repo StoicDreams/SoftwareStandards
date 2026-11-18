@@ -1,4 +1,4 @@
-<webui-data data-page-title="Continuous Collaboration: Tenet 7 of Continuous Agile Software Engineering" data-page-subtitle=""></webui-data>
+<webui-data data-page-title="Continuous Collaboration: Tenet 7 of Continuous Agile Software Engineering" data-page-subtitle="" data-page-description="Tenet 7 of CASE: keep customers, product owners, developers, and testers aligned through a collaborative culture and shared understanding."></webui-data>
 <webui-data data-page-next-page='{"name":"Continuous Learning","href":"/tenets/continuous-learning"}'></webui-data>
 
 <webui-side-by-side>

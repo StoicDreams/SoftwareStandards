@@ -1,4 +1,4 @@
-<webui-data data-page-title="Continuous Learning: Tenet 8 of Continuous Agile Software Engineering" data-page-subtitle=""></webui-data>
+<webui-data data-page-title="Continuous Learning: Tenet 8 of Continuous Agile Software Engineering" data-page-subtitle="" data-page-description="Tenet 8 of CASE: keep learning new skills, technologies, and practices so teams improve both their products and how they build them."></webui-data>
 <webui-data data-page-next-page='{"name":"Continuous Testing","href":"/tenets/continuous-testing"}'></webui-data>
 
 <webui-side-by-side>

@@ -1,4 +1,4 @@
-<webui-data data-page-title="Continuous Agility: Tenet 3 of Continuous Agile Software Engineering" data-page-subtitle=""></webui-data>
+<webui-data data-page-title="Continuous Agility: Tenet 3 of Continuous Agile Software Engineering" data-page-subtitle="" data-page-description="Tenet 3 of CASE: stay flexible as requirements, technology, and customer needs change, prioritize customer value, and cut waste."></webui-data>
 <webui-data data-page-next-page='{"name":"Continuous Feedback Loops","href":"/tenets/continuous-feedback-loops"}'></webui-data>
 
 <webui-side-by-side>

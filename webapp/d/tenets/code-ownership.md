@@ -1,4 +1,4 @@
-<webui-data data-page-title="Code Ownership: Tenet 2 of Continuous Agile Software Engineering" data-page-subtitle=""></webui-data>
+<webui-data data-page-title="Code Ownership: Tenet 2 of Continuous Agile Software Engineering" data-page-subtitle="" data-page-description="Tenet 2 of CASE: assign code owners, foster collaboration among them, and rotate ownership, so small teams build better software."></webui-data>
 <webui-data data-page-next-page='{"name":"Continuous Agility","href":"/tenets/continuous-agility"}'></webui-data>
 
 <webui-side-by-side>

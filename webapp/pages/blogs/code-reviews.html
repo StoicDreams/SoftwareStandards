@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+	<!-- Google tag (gtag.js) -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-WYD1GW6NWL"></script>
+	<script>
+		if (location.hostname !== 'localhost') {
+			window.dataLayer = window.dataLayer || [];
+			function gtag() { dataLayer.push(arguments); }
+			gtag('js', new Date());
+			gtag('config', 'G-WYD1GW6NWL');
+		}
+	</script>
+	<title>Code Reviews</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="robots" content="index, follow">
+	<base href="/" />
+	<script type="text/javascript">
+		navigator.serviceWorker.register('service-worker.min.js');
+	</script>
+
+	<link rel="dns-prefetch" href="https://cdn.myfi.ws" />
+	<link rel="dns-prefetch" href="https://api.myfi.ws" />
+	<link rel="preconnect" href="https://cdn.myfi.ws">
+	<link rel="preconnect" href="https://api.myfi.ws">
+
+	<link href="Logo.svg?v=a7ce4cdaf0" rel="icon" type="image/svg+xml" sizes="any" />
+	<link rel="manifest" href="app.webmanifest?v=0004832c1f">
+
+	<script>
+		// Web UI loads from the local MyFiCDN server (MyFiCDN/PowerShell/RunLocal.ps1) when the site runs on localhost,
+		// so framework changes show before they are published, and from cdn.myfi.ws everywhere else.
+		window.webuiCdn = /^(localhost|127\.0\.0\.1|\[::1\])$/.test(location.hostname) ? 'http://localhost:3180/' : 'https://cdn.myfi.ws/';
+		document.write('<link href="' + webuiCdn + 'css/webui.min.css" rel="stylesheet" />');
+	</script>
+	<link href="css/app.min.css?v=27a41e2b3b" rel="stylesheet" />
+	<script>document.write('<script src="' + webuiCdn + 'webui/loader.min.js"></' + 'script>');</script>
+
+	<!-- Prerendered pages from webapp_post_build prerender. Release builds copy them to the site root. -->
+
+	<!--Web Worker-->
+	<script type="module" src="main.js?v=cea15cbf4f"></script>
+	<!--End Web Worker-->
+
+	<meta name="theme-color" content="#1240da" />
+
+	<meta name="author" content="Erik Gassler">
+	<meta name="description" content="Why a mandatory code review gate breaks CI/CD flow, and how to keep quality high with automation, pairing, and ownership instead.">
+
+	<meta property="og:image" content="https://www.softwarestandards.dev/Logo.svg">
+	<meta property="og:title" content="Code Reviews">
+	<meta property="og:url" content="https://www.softwarestandards.dev/blogs/code-reviews">
+	<meta property="og:description" content="Why a mandatory code review gate breaks CI/CD flow, and how to keep quality high with automation, pairing, and ownership instead.">
+
+	<meta name="twitter:title" content="Code Reviews">
+	<meta name="twitter:url" content="https://www.softwarestandards.dev/blogs/code-reviews">
+	<meta name="twitter:site" content="@stoicdreamsllc">
+	<meta name="twitter:description" content="Why a mandatory code review gate breaks CI/CD flow, and how to keep quality high with automation, pairing, and ownership instead.">
+	<meta name="twitter:image" content="https://www.softwarestandards.dev/Logo.svg">
+	<link rel="canonical" href="https://www.softwarestandards.dev/blogs/code-reviews" />
+	<link rel="modulepreload" href="https://cdn.myfi.ws/js/mdparse.min.js" crossorigin="anonymous" />
+	<link rel="preload" as="script" href="https://cdn.myfi.ws/webui/alerts.min.js" crossorigin="anonymous" />
+	<link rel="preload" as="script" href="https://cdn.myfi.ws/webui/app.min.js" crossorigin="anonymous" />
+	<link rel="preload" as="script" href="https://cdn.myfi.ws/webui/app-config.min.js" crossorigin="anonymous" />
+	<link rel="preload" as="script" href="https://cdn.myfi.ws/webui/data.min.js" crossorigin="anonymous" />
+	<link rel="preload" as="script" href="https://cdn.myfi.ws/webui/drawer.min.js" crossorigin="anonymous" />
+	<link rel="preload" as="script" href="https://cdn.myfi.ws/webui/feedback.min.js" crossorigin="anonymous" />
+	<link rel="preload" as="script" href="https://cdn.myfi.ws/webui/flex.min.js" crossorigin="anonymous" />
+	<link rel="preload" as="script" href="https://cdn.myfi.ws/webui/icon.min.js" crossorigin="anonymous" />
+	<link rel="preload" as="script" href="https://cdn.myfi.ws/webui/link.min.js" crossorigin="anonymous" />
+	<link rel="preload" as="script" href="https://cdn.myfi.ws/webui/myfi-info.min.js" crossorigin="anonymous" />
+	<link rel="preload" as="script" href="https://cdn.myfi.ws/webui/nav.min.js" crossorigin="anonymous" />
+	<link rel="preload" as="script" href="https://cdn.myfi.ws/webui/next-page.min.js" crossorigin="anonymous" />
+	<link rel="preload" as="script" href="https://cdn.myfi.ws/webui/page-footer.min.js" crossorigin="anonymous" />
+	<link rel="preload" as="script" href="https://cdn.myfi.ws/webui/page-segment.min.js" crossorigin="anonymous" />
+	<link rel="preload" as="script" href="https://cdn.myfi.ws/webui/stoic-dreams-logo.min.js" crossorigin="anonymous" />
+	<link rel="preload" as="script" href="https://cdn.myfi.ws/webui/stoic-social-links.min.js" crossorigin="anonymous" />
+	<meta name="webui-prerender" content="5ca6fb7994">
+</head>
+
+<body>
+	<webui-app-config src="appConfig.json"></webui-app-config>
+	<webui-app data-removeclass=".nav|open;.shared|open">
+		<div data-prerendered>
+<blockquote>
+<p>[Erik Gassler] Published August 22, 2025</p>
+</blockquote>
+<h2>Code Reviews Don't Belong in Your CI/CD Pipeline</h2>
+
+<p>One of the biggest mistakes I see in teams practicing CI/CD is the idea that code reviews should be a gate in the pipeline. It seems logical: before code merges, someone should approve it. The problem is, that mindset completely undermines what CI/CD is supposed to achieve.</p>
+<p>If humans are sitting in the middle of your automation, you don't have a continuous pipeline anymore. You have a stoplight.</p>
+
+<h3>CI/CD Requires Flow</h3>
+
+<p>The whole point of CI/CD is that every commit can move from source to production without waiting on anything other than automation. Every commit is integrated, tested, and deployed continuously. No bottlenecks, no approvals, no handoffs.</p>
+<p>Insert a code review into that path, and you've broken it. Suddenly, "continuous" becomes "continuous… until Jim gets back from lunch and approves the PR." Your system is only as fast as your slowest reviewer. That's not continuous integration or delivery - it's a manual release process dressed up with some automation.</p>
+
+<h2>Reviews as Events, Not Steps</h2>
+
+<p>Now, to be clear: I'm not saying code reviews don't matter. In fact, they're vital. But they work best as deliberate events with the team, not as a mechanical step in a pipeline.</p>
+<p>When reviews are bolted onto the merge process, they become about approval. The reviewer's job is to unblock. That's not real collaboration. That's bureaucracy.</p>
+<p>In my experience, reviews are most effective when held in <strong>bi-weekly or monthly review sessions</strong>. This isn't a meeting where you nitpick line by line. Instead, it's a space for the team to step back, look at recent changes, and talk through them together. What patterns are emerging? What improvements can we make? What trade-offs did we take, and what can we learn from them?</p>
+<p>The value of review isn't in catching typos - it's in building shared understanding. That works far better in group sessions where discussion flows, not in isolated comment threads attached to a PR.</p>
+
+<h3>Trust and Safety in CI/CD</h3>
+
+<p>Of course, the question always comes up: "But what if bad code gets merged?" The answer is simple: CI/CD only works if you trust your safety nets. Automated tests, observability, feature flags, and fast fixes are what keep bad code from hurting users.</p>
+<p>If your process relies on a human reviewer as the last line of defense, you don't have CI/CD. You have manual QA with extra steps. Continuous delivery demands that we design for failure and recovery, not for preventing all mistakes up front.</p>
+<p>That's why separating code reviews from the pipeline actually strengthens your process. Reviews become about <strong>improving engineers</strong>. Pipelines stay about <strong>moving code</strong>.</p>
+
+<h2>Reviews as Part of CASE</h2>
+
+<p>In Continuous Agile Software Engineering (CASE), this separation is critical. Teams deliver continuously, with automation as the backbone. Reviews then become recurring team events, used to strengthen code quality and team alignment without blocking flow.</p>
+<p>By holding bi-weekly or monthly review sessions, you create a cadence that supports reflection without slowing delivery. Developers don't wait on approvals to ship. Instead, they ship continuously, then come together as a group to learn and improve based on real code that's already in production.</p>
+<p>This rhythm balances the two forces that make CASE work: <strong>flow</strong> and <strong>feedback</strong>.</p>
+
+<h3>Conclusion</h3>
+
+<p>If your pipeline pauses for review, it's not continuous. You're gating automation with bureaucracy.</p>
+<p>But when reviews are elevated to deliberate, recurring team events, they actually do what they're supposed to: raise the bar, spread knowledge, and grow the team.</p>
+<p>CI/CD is about trust in automation. Code reviews are about trust in each other. Mixing the two only weakens both.</p>
+<p>Keep your pipeline continuous. Keep your reviews collaborative. That's how you get real flow - and real quality.</p>
+		</div>
+		<webui-drawer slot="left" class="nav elevation-20" docked="true" data-state="slot|docked" data-moveable data-dockable>
+			<webui-flex justify="center" slot="header">
+				<webui-stoic-dreams-logo title="Software Development Standards Website Logo" text="Soft Dev" text2="Standards"></webui-stoic-dreams-logo>
+			</webui-flex>
+			<webui-nav routes="/nav.json" data-subscribe="app-nav-routes:setNavRoutes"></webui-nav>
+		</webui-drawer>
+		<webui-drawer slot="right" class="shared elevation-20" data-stopclick data-moveable data-state="slot">
+		</webui-drawer>
+		<header slot="header">
+			<button aria-label="open navigation menu" data-toggleclass=".nav|open" class="elevation-10 pa-1 mx-1">
+				<webui-icon icon="hamburger"></webui-icon>
+			</button>
+			<h1 data-subscribe="page-title:innerHTML">Code Reviews</h1>
+			<h2 data-subscribe="page-subtitle:innerHTML"></h2>
+			<webui-flex grow></webui-flex>
+			<webui-feedback title="Provide us your feedback" data-post="https://api.myfi.ws/feedback/new" data-json-name="message">
+				<p>You can also come <a href="https://discord.gg/5X4YSDFdHD">chat with us on the Stoic Dreams discord server.</a></p>
+			</webui-feedback>
+			<webui-alerts title="View your notifications" data-title="My Alerts" data-toggleclass=".shared|open"></webui-alerts>
+			<webui-myfi-info sign-in-label="Sign In">
+				<template slot="panel-content">
+					<webui-alert show variant="info">Example Account Panel</webui-alert>
+				</template>
+			</webui-myfi-info>
+		</header>
+		<noscript>Javascript is required to view this site</noscript>
+		<webui-page-footer copyright="2021" company="Stoic Dreams">
+			<webui-next-page theme="tertiary" data-subscribe="page-next-page"></webui-next-page>
+			<webui-flex class="my-3" justify="center" wrap>
+				<webui-link href="/about" icon="circle_exclamation|backing|bordered">About Software Development Standards</webui-link>
+				<webui-link href="/contact" icon="messages|fill|shade:tri">Contact Stoic Dreams</webui-link>
+				<webui-link href="/privacy" icon="shield_exclamation|backing|bordered">Privacy</webui-link>
+				<webui-link href="/terms" icon="handshake|fill|shade:tri">Terms & Conditions</webui-link>
+			</webui-flex>
+			<webui-stoic-social-links class="mb-2"></webui-stoic-social-links>
+		</webui-page-footer>
+	</webui-app>
+</body>
+
+</html>

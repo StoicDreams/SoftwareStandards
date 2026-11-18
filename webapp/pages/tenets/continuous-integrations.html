@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+	<!-- Google tag (gtag.js) -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-WYD1GW6NWL"></script>
+	<script>
+		if (location.hostname !== 'localhost') {
+			window.dataLayer = window.dataLayer || [];
+			function gtag() { dataLayer.push(arguments); }
+			gtag('js', new Date());
+			gtag('config', 'G-WYD1GW6NWL');
+		}
+	</script>
+	<title>Continuous Integrations: Tenet 11 of Continuous Agile Software Engineering</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="robots" content="index, follow">
+	<base href="/" />
+	<script type="text/javascript">
+		navigator.serviceWorker.register('service-worker.min.js');
+	</script>
+
+	<link rel="dns-prefetch" href="https://cdn.myfi.ws" />
+	<link rel="dns-prefetch" href="https://api.myfi.ws" />
+	<link rel="preconnect" href="https://cdn.myfi.ws">
+	<link rel="preconnect" href="https://api.myfi.ws">
+
+	<link href="Logo.svg?v=a7ce4cdaf0" rel="icon" type="image/svg+xml" sizes="any" />
+	<link rel="manifest" href="app.webmanifest?v=0004832c1f">
+
+	<script>
+		// Web UI loads from the local MyFiCDN server (MyFiCDN/PowerShell/RunLocal.ps1) when the site runs on localhost,
+		// so framework changes show before they are published, and from cdn.myfi.ws everywhere else.
+		window.webuiCdn = /^(localhost|127\.0\.0\.1|\[::1\])$/.test(location.hostname) ? 'http://localhost:3180/' : 'https://cdn.myfi.ws/';
+		document.write('<link href="' + webuiCdn + 'css/webui.min.css" rel="stylesheet" />');
+	</script>
+	<link href="css/app.min.css?v=27a41e2b3b" rel="stylesheet" />
+	<script>document.write('<script src="' + webuiCdn + 'webui/loader.min.js"></' + 'script>');</script>
+
+	<!-- Prerendered pages from webapp_post_build prerender. Release builds copy them to the site root. -->
+
+	<!--Web Worker-->
+	<script type="module" src="main.js?v=cea15cbf4f"></script>
+	<!--End Web Worker-->
+
+	<meta name="theme-color" content="#1240da" />
+
+	<meta name="author" content="Erik Gassler">
+	<meta name="description" content="Tenet 11 of CASE: merge changes into a single main branch often and test every change so everyone works from the latest code.">
+
+	<meta property="og:image" content="https://www.softwarestandards.dev/Logo.svg">
+	<meta property="og:title" content="Continuous Integrations: Tenet 11 of Continuous Agile Software Engineering">
+	<meta property="og:url" content="https://www.softwarestandards.dev/tenets/continuous-integrations">
+	<meta property="og:description" content="Tenet 11 of CASE: merge changes into a single main branch often and test every change so everyone works from the latest code.">
+
+	<meta name="twitter:title" content="Continuous Integrations: Tenet 11 of Continuous Agile Software Engineering">
+	<meta name="twitter:url" content="https://www.softwarestandards.dev/tenets/continuous-integrations">
+	<meta name="twitter:site" content="@stoicdreamsllc">
+	<meta name="twitter:description" content="Tenet 11 of CASE: merge changes into a single main branch often and test every change so everyone works from the latest code.">
+	<meta name="twitter:image" content="https://www.softwarestandards.dev/Logo.svg">
+	<link rel="canonical" href="https://www.softwarestandards.dev/tenets/continuous-integrations" />
+	<link rel="modulepreload" href="https://cdn.myfi.ws/js/mdparse.min.js" crossorigin="anonymous" />
+	<link rel="preload" as="script" href="https://cdn.myfi.ws/webui/alerts.min.js" crossorigin="anonymous" />
+	<link rel="preload" as="script" href="https://cdn.myfi.ws/webui/app.min.js" crossorigin="anonymous" />
+	<link rel="preload" as="script" href="https://cdn.myfi.ws/webui/app-config.min.js" crossorigin="anonymous" />
+	<link rel="preload" as="script" href="https://cdn.myfi.ws/webui/data.min.js" crossorigin="anonymous" />
+	<link rel="preload" as="script" href="https://cdn.myfi.ws/webui/drawer.min.js" crossorigin="anonymous" />
+	<link rel="preload" as="script" href="https://cdn.myfi.ws/webui/feedback.min.js" crossorigin="anonymous" />
+	<link rel="preload" as="script" href="https://cdn.myfi.ws/webui/flex.min.js" crossorigin="anonymous" />
+	<link rel="preload" as="script" href="https://cdn.myfi.ws/webui/icon.min.js" crossorigin="anonymous" />
+	<link rel="preload" as="script" href="https://cdn.myfi.ws/webui/link.min.js" crossorigin="anonymous" />
+	<link rel="preload" as="script" href="https://cdn.myfi.ws/webui/myfi-info.min.js" crossorigin="anonymous" />
+	<link rel="preload" as="script" href="https://cdn.myfi.ws/webui/nav.min.js" crossorigin="anonymous" />
+	<link rel="preload" as="script" href="https://cdn.myfi.ws/webui/next-page.min.js" crossorigin="anonymous" />
+	<link rel="preload" as="script" href="https://cdn.myfi.ws/webui/page-footer.min.js" crossorigin="anonymous" />
+	<link rel="preload" as="script" href="https://cdn.myfi.ws/webui/paper.min.js" crossorigin="anonymous" />
+	<link rel="preload" as="script" href="https://cdn.myfi.ws/webui/side-by-side.min.js" crossorigin="anonymous" />
+	<link rel="preload" as="script" href="https://cdn.myfi.ws/webui/stoic-dreams-logo.min.js" crossorigin="anonymous" />
+	<link rel="preload" as="script" href="https://cdn.myfi.ws/webui/stoic-social-links.min.js" crossorigin="anonymous" />
+	<meta name="webui-prerender" content="b1ac9ed37e">
+</head>
+
+<body>
+	<webui-app-config src="appConfig.json"></webui-app-config>
+	<webui-app data-removeclass=".nav|open;.shared|open">
+		<div data-prerendered>
+<h2>Introduction</h2>
+
+<p>Continuous Integrations, also referred to as CI, means that teams should continuously integrate their code changes into a single source of truth, such as a shared repository with a single main branch while testing their changes as frequently as possible.</p>
+<p>Continuous integrations are critical to ensuring that teams are always working from a single source of truth with the latest version of the codebase and that any issues are identified and resolved as quickly as possible. By using a version control system, automating integration testing, and integrating code changes into the shared repository as frequently as possible, teams can create a development process that is reliable and efficient.</p>
+
+
+
+<h2>Core Principle 1: Single Branch Version Control</h2>
+
+<p>Single branch version control is a software development approach that involves working on a single branch or single source of truth of the codebase at all times. This means that all changes to the code are made on the same branch, instead of creating separate branches for different features or bug fixes.</p>
+<p>In contrast to traditional version control systems, which use multiple branches to manage different versions of the code, single branch version control allows developers to work together more seamlessly and reduces the risk of merge conflicts. It also promotes a more agile and collaborative development process by encouraging frequent commits and allowing for easier collaboration on a single codebase.</p>
+<p>By maintaining a single, unified codebase, teams can focus on delivering features and improvements quickly and efficiently, without the added overhead of managing multiple branches.</p>
+<p>Overall, single branch version control can be a powerful tool for streamlining the software development process, promoting collaboration, and helping teams deliver high-quality code more efficiently.</p>
+
+
+
+<h2>Core Principle 2: Automate Integration Testing</h2>
+
+<p>Automated integration testing is the process of automatically testing the integration between different modules, components, or services of an application. It involves testing the application's behavior when two or more modules are integrated, to ensure that they work together as expected. The objective of integration testing is to identify defects early in the development cycle, reducing the risk of issues being discovered during later stages of the development process.</p>
+<p>Automating integration testing involves using tools and frameworks to automate the testing process. These tools can simulate the interaction between different components and services of an application and verify that they work together as expected. By automating integration testing, developers can quickly test and validate changes made to the application and catch integration issues before they become bigger problems.</p>
+<p>In addition to reducing the risk of integration issues, automating integration testing can also help improve development productivity. By automating the testing process, developers can spend more time coding and less time manually testing their changes. This can help speed up the development process, allowing teams to deliver software faster and more reliably.</p>
+<p>Overall, automating integration testing is a critical component of a successful CI process. It helps teams catch integration issues early in the development cycle, reduce the risk of defects, and improve development productivity. By using the right tools and frameworks, teams can ensure that their application's integration points work as expected and deliver high-quality software more efficiently.</p>
+
+
+
+<h2>Core Principle 3: Integrate Frequently</h2>
+
+<p>Integrating frequently is an essential practice for CASE software development. It involves regularly merging code changes from multiple developers into a shared code repository to ensure that the software remains in a stable state. By integrating frequently, teams can detect and resolve integration issues early in the development process.</p>
+<p>One of the primary benefits of integrating frequently is that it reduces the risk of conflicts between different code changes. When multiple developers are working on the same codebase, it's possible for their changes to conflict with one another. If left unaddressed, these conflicts can cause significant delays and rework. By integrating frequently, developers can quickly identify and resolve conflicts, ensuring that the codebase remains in a stable state.</p>
+<p>To make integration testing more efficient, teams should automate the process wherever possible. Automated integration testing tools can help detect issues in code changes more quickly and accurately than manual testing, allowing teams to resolve issues more quickly.</p>
+<p>Another essential aspect of integrating frequently is the use of a single branch version control system. With a single branch version control system, all code changes are made to the same branch, rather than separate branches. This makes it easier to integrate changes from multiple developers, reducing the risk of conflicts and ensuring that the software remains in a stable state.</p>
+<p>Integrating frequently is an essential practice for CASE software development. By ensuring that code changes are regularly integrated into a shared codebase, teams can detect and resolve integration issues early, reducing the risk of conflicts and delays. Automated integration testing tools and single branch version control systems are key to making integration testing more efficient and effective.</p>
+
+
+
+<h2>Conclusion</h2>
+
+<p>Continuous integrations play a critical role in the success of any software development project. By establishing continuous integration, teams can ensure that they are always working with the latest version of the codebase, identify and address issues early in the development process, and deliver higher quality software that meets the needs of their users.</p>
+<p>To successfully implement continuous integrations, teams must prioritize single branch version control, automate integration testing, and integrating code changes frequently. These principles help to establish a robust and reliable continuous integration process that helps teams to be more productive and effective in their software development efforts.</p>
+<p>By adopting the principles of continuous integrations, teams can improve their software development processes and deliver better products to their customers. They can benefit from faster release cycles, higher quality software, and improved collaboration among team members.</p>
+		</div>
+		<webui-drawer slot="left" class="nav elevation-20" docked="true" data-state="slot|docked" data-moveable data-dockable>
+			<webui-flex justify="center" slot="header">
+				<webui-stoic-dreams-logo title="Software Development Standards Website Logo" text="Soft Dev" text2="Standards"></webui-stoic-dreams-logo>
+			</webui-flex>
+			<webui-nav routes="/nav.json" data-subscribe="app-nav-routes:setNavRoutes"></webui-nav>
+		</webui-drawer>
+		<webui-drawer slot="right" class="shared elevation-20" data-stopclick data-moveable data-state="slot">
+		</webui-drawer>
+		<header slot="header">
+			<button aria-label="open navigation menu" data-toggleclass=".nav|open" class="elevation-10 pa-1 mx-1">
+				<webui-icon icon="hamburger"></webui-icon>
+			</button>
+			<h1 data-subscribe="page-title:innerHTML">Continuous Integrations: Tenet 11 of Continuous Agile Software Engineering</h1>
+			<h2 data-subscribe="page-subtitle:innerHTML"></h2>
+			<webui-flex grow></webui-flex>
+			<webui-feedback title="Provide us your feedback" data-post="https://api.myfi.ws/feedback/new" data-json-name="message">
+				<p>You can also come <a href="https://discord.gg/5X4YSDFdHD">chat with us on the Stoic Dreams discord server.</a></p>
+			</webui-feedback>
+			<webui-alerts title="View your notifications" data-title="My Alerts" data-toggleclass=".shared|open"></webui-alerts>
+			<webui-myfi-info sign-in-label="Sign In">
+				<template slot="panel-content">
+					<webui-alert show variant="info">Example Account Panel</webui-alert>
+				</template>
+			</webui-myfi-info>
+		</header>
+		<noscript>Javascript is required to view this site</noscript>
+		<webui-page-footer copyright="2021" company="Stoic Dreams">
+			<webui-next-page theme="tertiary" data-subscribe="page-next-page"></webui-next-page>
+			<webui-flex class="my-3" justify="center" wrap>
+				<webui-link href="/about" icon="circle_exclamation|backing|bordered">About Software Development Standards</webui-link>
+				<webui-link href="/contact" icon="messages|fill|shade:tri">Contact Stoic Dreams</webui-link>
+				<webui-link href="/privacy" icon="shield_exclamation|backing|bordered">Privacy</webui-link>
+				<webui-link href="/terms" icon="handshake|fill|shade:tri">Terms & Conditions</webui-link>
+			</webui-flex>
+			<webui-stoic-social-links class="mb-2"></webui-stoic-social-links>
+		</webui-page-footer>
+	</webui-app>
+</body>
+
+</html>

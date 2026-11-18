@@ -1,4 +1,4 @@
-<webui-data data-page-title="Code Reviews" data-page-subtitle=""></webui-data>
+<webui-data data-page-title="Code Reviews" data-page-subtitle="" data-page-description="Why a mandatory code review gate breaks CI/CD flow, and how to keep quality high with automation, pairing, and ownership instead."></webui-data>
 
 > [Erik Gassler] Published August 22, 2025
 
